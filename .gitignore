@@ -7,3 +7,17 @@ __pycache__/
 .idea/
 Thumbs.db
 .DS_Store
+
+# Internal dissertation/development documents
+AGENTS.md
+CLIENT_READINESS_AUDIT.md
+CODE_EXPLANATION.md
+PACKAGE_CONTENTS.md
+PROJECT_CHANGES_CHECKLIST.md
+SUBMISSION_GUIDE.md
+VOICE_OVERRIDE_FIX.md
+instructions.md
+plan.md
+SHA256SUMS.txt
+compose.webots.yaml
+documents/
