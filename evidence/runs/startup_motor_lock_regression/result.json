@@ -1,0 +1,739 @@
+{
+  "actual_path_length": 6.09,
+  "events": [
+    {
+      "event": "controller_started",
+      "scenario": "/project/validation_runs/20260910_081415_575273_midroute_destination_change_01/scenario.json",
+      "session_id": "1f803eff974c",
+      "state": "IDLE",
+      "time": 1789028076.545
+    },
+    {
+      "accepted": true,
+      "command": "start",
+      "event": "command_recognised",
+      "input_source": "MICROPHONE",
+      "recognised_as": null,
+      "session_id": "1f803eff974c",
+      "state": "READY",
+      "status": "activated",
+      "time": 1789028076.546
+    },
+    {
+      "event": "system_activated",
+      "input_source": "MICROPHONE",
+      "movement_started": false,
+      "session_id": "1f803eff974c",
+      "state": "READY",
+      "time": 1789028076.552,
+      "waiting_for_destination": true
+    },
+    {
+      "accepted": true,
+      "command": "go to A",
+      "event": "command_recognised",
+      "input_source": "MICROPHONE",
+      "recognised_as": null,
+      "session_id": "1f803eff974c",
+      "state": "READY",
+      "status": "pending_confirmation",
+      "time": 1789028076.558
+    },
+    {
+      "event": "input_mode_changed",
+      "mode": "CAMERA",
+      "previous": "MICROPHONE",
+      "reason": "camera gesture: NOD",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.563
+    },
+    {
+      "event": "gesture_recognised",
+      "gesture": "NOD",
+      "input_source": "CAMERA",
+      "outcome": "route_started",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.568
+    },
+    {
+      "alternative": false,
+      "command": "go to A",
+      "confirmation_source": "CAMERA",
+      "destination": "A",
+      "event": "command_confirmed",
+      "origin": "S",
+      "route": "GRAPH_S_A_SHORTEST",
+      "route_length": 4.811,
+      "route_segments": [
+        "S_A_SHORT"
+      ],
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.573
+    },
+    {
+      "event": "route_started",
+      "route": "GRAPH_S_A_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.578,
+      "trigger_source": "camera_nod_confirmation"
+    },
+    {
+      "details": {
+        "index": 1,
+        "position": [
+          -2.5500000031045515,
+          2.0594999999999994
+        ]
+      },
+      "event": "waypoint_reached",
+      "position": [
+        -2.5500000031045515,
+        2.0594999999999994
+      ],
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.583
+    },
+    {
+      "event": "input_mode_changed",
+      "mode": "MICROPHONE",
+      "previous": "CAMERA",
+      "reason": "voice command: go to B",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.59
+    },
+    {
+      "accepted": true,
+      "command": "go to B",
+      "event": "command_recognised",
+      "in_motion": true,
+      "input_source": "MICROPHONE",
+      "session_id": "1f803eff974c",
+      "state": "PAUSED",
+      "status": "pending_confirmation",
+      "time": 1789028076.596
+    },
+    {
+      "command": "go to B",
+      "confirmation": "NOD",
+      "event": "voice_destination_override_pending",
+      "input_source": "MICROPHONE",
+      "previous_destination": "A",
+      "previous_route": "GRAPH_S_A_SHORTEST",
+      "requested_destination": "B",
+      "session_id": "1f803eff974c",
+      "state": "PAUSED",
+      "time": 1789028076.602
+    },
+    {
+      "event": "input_mode_changed",
+      "mode": "CAMERA",
+      "previous": "MICROPHONE",
+      "reason": "camera gesture: NOD",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.607
+    },
+    {
+      "event": "gesture_recognised",
+      "gesture": "NOD",
+      "input_source": "CAMERA",
+      "outcome": "route_started",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.612
+    },
+    {
+      "alternative": false,
+      "command": "go to B",
+      "confirmation_source": "CAMERA",
+      "destination": "B",
+      "event": "command_confirmed",
+      "origin": "S",
+      "route": "GRAPH_S_B_SHORTEST",
+      "route_length": 6.258,
+      "route_segments": [
+        "A_B",
+        "S_A_LONG"
+      ],
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.617
+    },
+    {
+      "event": "route_started",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.621,
+      "trigger_source": "camera_nod_confirmation"
+    },
+    {
+      "details": {
+        "index": 1,
+        "position": [
+          -2.5500000031045515,
+          2.0594999999999994
+        ]
+      },
+      "event": "waypoint_reached",
+      "position": [
+        -2.5500000031045515,
+        2.0594999999999994
+      ],
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.628
+    },
+    {
+      "details": {
+        "compass": [
+          -1.0,
+          -6.367119881164131e-09,
+          0.0
+        ],
+        "desired_heading": -1.5707963759642984,
+        "distance": 0.5249592291886929,
+        "heading": -1.5707963331620167,
+        "heading_error": -4.280228171893441e-08,
+        "position": [
+          -2.5499999741880686,
+          1.7249592291886922
+        ],
+        "target": [
+          -2.55,
+          1.2
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.661
+    },
+    {
+      "details": {
+        "compass": [
+          -0.9999999999999983,
+          -6.093400422551774e-08,
+          0.0
+        ],
+        "desired_heading": -1.570796421918143,
+        "distance": 0.1409592543890836,
+        "heading": -1.570796387728901,
+        "heading_error": -3.41892416599876e-08,
+        "position": [
+          -2.549999986591498,
+          1.340959254389083
+        ],
+        "target": [
+          -2.55,
+          1.2
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.698
+    },
+    {
+      "details": {
+        "index": 2,
+        "position": [
+          -2.549999990000082,
+          1.2871992579171376
+        ]
+      },
+      "event": "waypoint_reached",
+      "position": [
+        -2.549999990000082,
+        1.2871992579171376
+      ],
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.703
+    },
+    {
+      "details": {
+        "compass": [
+          -0.018821797258093634,
+          0.9998228542836852,
+          0.0
+        ],
+        "desired_heading": 0.005993893411598495,
+        "distance": 1.4296176813540071,
+        "heading": -0.01882290873710435,
+        "heading_error": 0.024816802148702966,
+        "position": [
+          -2.3795920006664932,
+          1.1914310753077901
+        ],
+        "target": [
+          -0.95,
+          1.2
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.732
+    },
+    {
+      "details": {
+        "compass": [
+          0.007247548666130984,
+          0.9999737361742718,
+          0.0
+        ],
+        "desired_heading": 0.00730477317585397,
+        "distance": 1.0467756269813784,
+        "heading": 0.007247612116249247,
+        "heading_error": 5.716105960473783e-05,
+        "position": [
+          -1.9967476992830155,
+          1.1923536094808436
+        ],
+        "target": [
+          -0.95,
+          1.2
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.769
+    },
+    {
+      "details": {
+        "compass": [
+          0.007308854664335357,
+          0.9999732899650349,
+          0.0
+        ],
+        "desired_heading": 0.007309125009770883,
+        "distance": 0.6627783500777992,
+        "heading": 0.00730891973828518,
+        "heading_error": 2.0527148558713293e-07,
+        "position": [
+          -1.6127606462505144,
+          1.1951557133187507
+        ],
+        "target": [
+          -0.95,
+          1.2
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.81
+    },
+    {
+      "details": {
+        "compass": [
+          0.0073090995822398894,
+          0.9999732881748878,
+          0.0
+        ],
+        "desired_heading": 0.007309087067937259,
+        "distance": 0.27877838457641213,
+        "heading": 0.007309164662731682,
+        "heading_error": -7.759479458968599e-08,
+        "position": [
+          -1.228770938055066,
+          1.1979624026569287
+        ],
+        "target": [
+          -0.95,
+          1.2
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.846
+    },
+    {
+      "details": {
+        "index": 3,
+        "position": [
+          -1.0367760858879915,
+          1.1993657472355221
+        ]
+      },
+      "event": "waypoint_reached",
+      "position": [
+        -1.0367760858879915,
+        1.1993657472355221
+      ],
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.865
+    },
+    {
+      "details": {
+        "compass": [
+          -0.9736686019290313,
+          0.22796809780661417,
+          0.0
+        ],
+        "desired_heading": -1.5686020539912242,
+        "distance": 1.9578296652759042,
+        "heading": -1.3408060074390478,
+        "heading_error": -0.22779604655217645,
+        "position": [
+          -0.9542960089413084,
+          1.157824951966221
+        ],
+        "target": [
+          -0.95,
+          -0.8
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.882
+    },
+    {
+      "details": {
+        "compass": [
+          -0.999986165154053,
+          -0.005260180651930387,
+          0.0
+        ],
+        "desired_heading": -1.576522254100468,
+        "distance": 1.585126927731114,
+        "heading": -1.5760565317048911,
+        "heading_error": -0.0004657223955768508,
+        "position": [
+          -0.9409237280380413,
+          0.7851009426233878
+        ],
+        "target": [
+          -0.95,
+          -0.8
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.922
+    },
+    {
+      "details": {
+        "compass": [
+          -0.9999834860783259,
+          -0.005746961861604944,
+          0.0
+        ],
+        "desired_heading": -1.5765443987047434,
+        "distance": 1.2011483318269482,
+        "heading": -1.5765433202916697,
+        "heading_error": -1.0784130735075337e-06,
+        "position": [
+          -0.9430957510341909,
+          0.4011284887125436
+        ],
+        "target": [
+          -0.95,
+          -0.8
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.957
+    },
+    {
+      "details": {
+        "compass": [
+          -0.999983479939437,
+          -0.005748029941954121,
+          0.0
+        ],
+        "desired_heading": -1.5765444975408143,
+        "distance": 0.8171484383780171,
+        "heading": -1.5765443883896602,
+        "heading_error": -1.0915115389309449e-07,
+        "position": [
+          -0.945302917117961,
+          0.0171349385236389
+        ],
+        "target": [
+          -0.95,
+          -0.8
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028076.994
+    },
+    {
+      "details": {
+        "compass": [
+          -0.999983478768246,
+          -0.005748233690186717,
+          0.0
+        ],
+        "desired_heading": -1.5765444896284377,
+        "distance": 0.43314845895918885,
+        "heading": -1.5765445921412589,
+        "heading_error": 1.0251282134277062e-07,
+        "position": [
+          -0.9475102058378955,
+          -0.36685869693164747
+        ],
+        "target": [
+          -0.95,
+          -0.8
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028077.038
+    },
+    {
+      "details": {
+        "index": 4,
+        "position": [
+          -0.9494967735898021,
+          -0.7124529683621914
+        ]
+      },
+      "event": "waypoint_reached",
+      "position": [
+        -0.9494967735898021,
+        -0.7124529683621914
+      ],
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028077.069
+    },
+    {
+      "details": {
+        "compass": [
+          -0.9988808900658042,
+          -0.047296590377604995,
+          0.0
+        ],
+        "desired_heading": -2.6257926963228395,
+        "distance": 0.11555078655732412,
+        "heading": -1.6181105684356174,
+        "heading_error": -1.0076821278872221,
+        "position": [
+          -0.9494825513745248,
+          -0.7430067828961971
+        ],
+        "target": [
+          -1.05,
+          -0.8
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028077.074
+    },
+    {
+      "details": {
+        "index": 5,
+        "position": [
+          -0.9620087663748862,
+          -0.7857303555441961
+        ]
+      },
+      "event": "waypoint_reached",
+      "position": [
+        -0.9620087663748862,
+        -0.7857303555441961
+      ],
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028077.084
+    },
+    {
+      "details": {
+        "compass": [
+          -0.720000135164114,
+          -0.6939739226827313,
+          0.0
+        ],
+        "desired_heading": -2.334027244684998,
+        "distance": 1.498583646888857,
+        "heading": -2.337790139888493,
+        "heading_error": 0.0037628952034949315,
+        "position": [
+          -1.1640894715104537,
+          -0.9671138916362371
+        ],
+        "target": [
+          -2.2,
+          -2.05
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028077.108
+    },
+    {
+      "details": {
+        "compass": [
+          -0.72273185630563,
+          -0.6911285436740537,
+          0.0
+        ],
+        "desired_heading": -2.3338371799353324,
+        "distance": 1.1147572276115936,
+        "heading": -2.3338457131531776,
+        "heading_error": 8.533217845219099e-06,
+        "position": [
+          -1.4295663357211281,
+          -1.2443228652505292
+        ],
+        "target": [
+          -2.2,
+          -2.05
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028077.147
+    },
+    {
+      "details": {
+        "compass": [
+          -0.7227381658978024,
+          -0.6911219455021528,
+          0.0
+        ],
+        "desired_heading": -2.3338365672604557,
+        "distance": 0.73075765986212,
+        "heading": -2.333836583704903,
+        "heading_error": 1.6444447137331508e-08,
+        "position": [
+          -1.6949573531105677,
+          -1.521853540890334
+        ],
+        "target": [
+          -2.2,
+          -2.05
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028077.182
+    },
+    {
+      "details": {
+        "compass": [
+          -0.7227381796420125,
+          -0.6911219311291968,
+          0.0
+        ],
+        "desired_heading": -2.3338365231893783,
+        "distance": 0.34675767174775013,
+        "heading": -2.3338365638180933,
+        "heading_error": 4.06287150589435e-08,
+        "position": [
+          -1.960348178449997,
+          -1.7993849818073826
+        ],
+        "target": [
+          -2.2,
+          -2.05
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_B_SHORTEST",
+      "session_id": "1f803eff974c",
+      "state": "NAVIGATING",
+      "time": 1789028077.212
+    },
+    {
+      "event": "waypoint_reached",
+      "position": [
+        -2.1381600190728647,
+        -1.9853310548782988
+      ],
+      "session_id": "1f803eff974c",
+      "state": "ARRIVED",
+      "time": 1789028077.235,
+      "transition": "destination_reached"
+    },
+    {
+      "event": "destination_reached",
+      "position": [
+        -2.1381600190728647,
+        -1.9853310548782988
+      ],
+      "session_id": "1f803eff974c",
+      "state": "ARRIVED",
+      "time": 1789028077.236
+    },
+    {
+      "destination": "B",
+      "event": "destination_verified",
+      "position": [
+        -2.140672385192521,
+        -1.9879583529404068
+      ],
+      "session_id": "1f803eff974c",
+      "time": 1789028077.243,
+      "within_tolerance": true
+    }
+  ],
+  "final_position": [
+    -2.140672385192521,
+    -1.9879583529404068
+  ],
+  "final_state": "ARRIVED",
+  "metrics": {
+    "accepted_command_events": 3,
+    "command_acceptance_rate": 1.0,
+    "command_events": 3,
+    "confirmation_response_seconds": [
+      0.015,
+      0.021
+    ],
+    "destination_changes": 1,
+    "gesture_events": 2,
+    "mean_confirmation_response_seconds": 0.018,
+    "navigation_pauses": 0,
+    "navigation_resumes": 0,
+    "recognised_gesture_events": 2,
+    "rejected_command_events": 0,
+    "route_failures": 0,
+    "route_starts": 2,
+    "safety_stops": 0,
+    "successful_execution": true,
+    "wall_clock_duration_seconds": 0.704,
+    "waypoint_events": 7
+  },
+  "pass_result": true,
+  "reason": "destination_reached"
+}

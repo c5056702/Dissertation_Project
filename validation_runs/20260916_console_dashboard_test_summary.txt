@@ -1,0 +1,13 @@
+Command: .\.venv\Scripts\python.exe -m unittest discover -s tests -q
+Interpreter: existing project Python 3.12 virtual environment
+Result: Ran 139 tests in 1.267s; OK; exit code 0
+Date: 2026-09-16
+
+Includes console/dashboard current-route agreement for all destinations,
+pending -> navigating -> replacement -> stop/reactivation transitions,
+screenshot stale-history reproduction, legacy/general arrival labels,
+and actual rendered two-line travelling/rearm/STOP guidance.
+
+Synthetic preview: 20260916_console_dashboard_status_preview.png
+No live controller restart, physical acceptance test, or media recording
+was performed for this status-display correction.

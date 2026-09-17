@@ -1,0 +1,43 @@
+INFO: epuck_waypoint_controller: Starting controller: python3 -u epuck_waypoint_controller.py
+INFO: You are entering fullscreen mode.
+
+Press ESC to stop recording the movie and quit fullscreen mode.
+Press <i>Ctrl+0</i> to pause the simulation.
+Press <i>Ctrl+1</i> to execute one basic time step.
+Press <i>Ctrl+2</i> to run the simulation in real time.
+Press <i>Ctrl+3</i> to run the simulation as fast as possible.
+Press <i>Ctrl+4</i> to toggle the 3D scene rendering.
+
+Press <i>Ctrl+Shift+P</i> to take a screenshot of the 3D screen.
+
+<b>Note:</b> When taking a screenshot in fullscreen mode, the resulting screenshot's save path will be chosen automatically.
+Screenshots will be saved in <i>/root/Pictures/</i>.
+[status] STATE: IDLE | waiting for START
+[live input] microphone=ready; camera=ready; face=present; calibration=ready
+[status] STATE: READY | command accepted | start A: pending_confirmation
+[status] STATE: READY | gesture | TILT_LEFT: route_short_selected
+[status] STATE: TO_PICKUP | gesture | NOD: route_started
+[status] STATE: TO_PICKUP | route started | S_A_SHORT → A
+[status] STATE: TO_PICKUP | navigating | S_A_SHORT → A
+[status] STATE: AT_PICKUP | arrived | pickup_waypoint_reached
+[status] STATE: AT_PICKUP | command accepted | go to C: pending_confirmation
+[status] STATE: AT_PICKUP | gesture | TILT_LEFT: route_short_selected
+[status] STATE: NAVIGATING | gesture | NOD: route_started
+[status] STATE: NAVIGATING | route started | GRAPH_A_C_SHORTEST → C
+[status] STATE: NAVIGATING | navigating | GRAPH_A_C_SHORTEST → C
+[status] STATE: ARRIVED | arrived | destination_reached
+[status] STATE: ARRIVED | command accepted | go to B: pending_confirmation
+[status] STATE: ARRIVED | gesture | TILT_RIGHT: route_alternative_selected
+[status] STATE: NAVIGATING | gesture | NOD: route_started
+[status] STATE: NAVIGATING | route started | GRAPH_C_B_ALTERNATIVE → B
+[status] STATE: NAVIGATING | navigating | GRAPH_C_B_ALTERNATIVE → B
+[status] STATE: STOPPED | safety stop | head_shake
+INFO: Creating video...
+Recording at 25 FPS, 7650000 bit/s.
+Video encoding stage 1... (please wait)
+Video encoding stage 2... (please wait)
+[1;36m[libx264 @ 0x561bcb08eac0] [0m[0;33mError: 2pass curve failed to converge
+[0m[1;36m[libx264 @ 0x561bcb08eac0] [0m[0;33mtarget: 7650.00 kbit/s, expected: 1471.60 kbit/s, avg QP: 0.0281
+[0m[1;36m[libx264 @ 0x561bcb08eac0] [0m[0;33mtry reducing target bitrate
+[0mINFO: Video creation finished.
+INFO: 'epuck_waypoint_controller' controller exited successfully.

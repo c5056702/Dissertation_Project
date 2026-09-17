@@ -1,0 +1,62 @@
+INFO: epuck_waypoint_controller: Starting controller: python3 -u epuck_waypoint_controller.py
+INFO: You are entering fullscreen mode.
+
+Press ESC to stop recording the movie and quit fullscreen mode.
+Press <i>Ctrl+0</i> to pause the simulation.
+Press <i>Ctrl+1</i> to execute one basic time step.
+Press <i>Ctrl+2</i> to run the simulation in real time.
+Press <i>Ctrl+3</i> to run the simulation as fast as possible.
+Press <i>Ctrl+4</i> to toggle the 3D scene rendering.
+
+Press <i>Ctrl+Shift+P</i> to take a screenshot of the 3D screen.
+
+<b>Note:</b> When taking a screenshot in fullscreen mode, the resulting screenshot's save path will be chosen automatically.
+Screenshots will be saved in <i>/root/Pictures/</i>.
+[status] STATE: IDLE | waiting for START
+[status] STATE: READY | command accepted | start: activated
+[status] STATE: READY | controls active | say GO TO A, GO TO B, or GO TO S
+[status] STATE: READY | command accepted | go to A: pending_confirmation
+[status] STATE: NAVIGATING | gesture | NOD: route_started
+[status] STATE: NAVIGATING | route started | GRAPH_S_A_ALTERNATIVE → A
+[status] STATE: PAUSED | command accepted | right: clarification_required
+[status] STATE: PAUSED | paused for clarification | say CONTINUE, ALTERNATIVE ROUTE, GO TO A/B/S, REVERSE, or STOP
+[status] STATE: NAVIGATING | command accepted | continue: resume_navigation
+[status] STATE: NAVIGATING | navigation resumed | GRAPH_S_A_ALTERNATIVE
+[status] STATE: NAVIGATING | navigating | GRAPH_S_A_ALTERNATIVE → A
+[status] STATE: ARRIVED | arrived | destination_reached
+[status] STATE: ARRIVED | command accepted | go to B: pending_confirmation
+[status] STATE: NAVIGATING | gesture | NOD: route_started
+[status] STATE: NAVIGATING | route started | GRAPH_A_B_SHORTEST → B
+[status] STATE: NAVIGATING | navigating | GRAPH_A_B_SHORTEST → B
+[status] STATE: PAUSED | command accepted | alternative route: pending_confirmation
+[status] STATE: NAVIGATING | gesture | NOD: route_started
+[status] STATE: NAVIGATING | route started | GRAPH_A_B_ALTERNATIVE → B
+[status] STATE: NAVIGATING | navigating | GRAPH_A_B_ALTERNATIVE → B
+[status] STATE: ARRIVED | arrived | destination_reached
+[status] STATE: ARRIVED | command accepted | go to C: pending_confirmation
+[status] STATE: NAVIGATING | gesture | NOD: route_started
+[status] STATE: NAVIGATING | route started | GRAPH_B_C_SHORTEST → C
+[status] STATE: NAVIGATING | navigating | GRAPH_B_C_SHORTEST → C
+[status] STATE: PAUSED | command accepted | go to S: pending_confirmation
+[status] STATE: NAVIGATING | gesture | NOD: route_started
+[status] STATE: NAVIGATING | route started | GRAPH_B_S_SHORTEST → S
+[status] STATE: NAVIGATING | navigating | GRAPH_B_S_SHORTEST → S
+[status] STATE: ARRIVED | arrived | destination_reached
+[status] STATE: ARRIVED | command accepted | go to A: pending_confirmation
+[status] STATE: NAVIGATING | gesture | NOD: route_started
+[status] STATE: NAVIGATING | route started | GRAPH_S_A_SHORTEST → A
+[status] STATE: NAVIGATING | navigating | GRAPH_S_A_SHORTEST → A
+[status] STATE: PAUSED | command accepted | reverse: pending_confirmation
+[status] STATE: NAVIGATING | gesture | NOD: route_started
+[status] STATE: NAVIGATING | route started | GRAPH_S_S_SHORTEST → S
+[status] STATE: NAVIGATING | navigating | GRAPH_S_S_SHORTEST → S
+[status] STATE: ARRIVED | arrived | destination_reached
+INFO: Creating video...
+Recording at 25 FPS, 7650000 bit/s.
+Video encoding stage 1... (please wait)
+Video encoding stage 2... (please wait)
+[1;36m[libx264 @ 0x5bc305e28500] [0m[0;33mError: 2pass curve failed to converge
+[0m[1;36m[libx264 @ 0x5bc305e28500] [0m[0;33mtarget: 7650.00 kbit/s, expected: 1588.19 kbit/s, avg QP: 0.0290
+[0m[1;36m[libx264 @ 0x5bc305e28500] [0m[0;33mtry reducing target bitrate
+[0mINFO: Video creation finished.
+INFO: 'epuck_waypoint_controller' controller exited successfully.

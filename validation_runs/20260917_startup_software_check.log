@@ -1,0 +1,16 @@
+Verified 252 packaged file checksums.
+No broken requirements found.
+Recognition and GUI imports passed
+..............................................................................................................................................
+----------------------------------------------------------------------
+Ran 142 tests in 1.794s
+
+OK
+{
+  "python": "C:\\Users\\manik\\Downloads\\35056702_Dissertation_Final_Project~\\.venv\\Scripts\\python.exe",
+  "webots": "C:\\Program Files\\Webots\\msys64\\mingw64\\bin\\webots.exe",
+  "software_tests_passed": true,
+  "physical_devices_verified": false,
+  "next_step": "run_live.py --list-microphones, then run_live.py --microphone INDEX --require-ready"
+}
+Software ready. Check microphone/camera on this laptop before the demonstration.

@@ -1,0 +1,47 @@
+[
+  {
+    "path": "CODE_EXPLANATION.md",
+    "old_sha256": "54c9c98aa46e520c4b059ac373594a949675deffac2a4153bfa02049a4ec2c56",
+    "new_sha256": "e09ae53d75c6308e3626331e062785dfb73e0f6214dfd4955936055e2fde4d68"
+  },
+  {
+    "path": "controllers/epuck_waypoint_controller/epuck_waypoint_controller.py",
+    "old_sha256": "b9df04493edbbaf47d84aa097740a847b0ddbfe0dadfdc1f046eb750c68c5cac",
+    "new_sha256": "96f8af436b2dba444b537221713ccd92462c6175c8e26f4fd3db87c0cea68d40"
+  },
+  {
+    "path": "controllers/epuck_waypoint_controller/live_dashboard.py",
+    "old_sha256": "d306966a6862f58f8b3529af9cbf009a749060d4e6c1037d3d683b303a1dbae6",
+    "new_sha256": "027c531edf5a9424df886c8cb7aa8cc440de8f3ee405f72559379424abb614c4"
+  },
+  {
+    "path": "instructions.md",
+    "old_sha256": "bf916fbb99bb5e641351861913c50c5264ee14463392c27b7a90c9d4c7ca013c",
+    "new_sha256": "0f351d0451307cfc95199019b3f74dd3e23aedd44cb85976a68babc5b2aa10e9"
+  },
+  {
+    "path": "README.md",
+    "old_sha256": "b562b4c28e9458edbada2748e090a26cb47c2c495baaf5f401a591fe9407b7bb",
+    "new_sha256": "b547f3f3a4e52f92fd1cc68ea376b6a711c6dc9a8863ca62f3ab89b25ebf4541"
+  },
+  {
+    "path": "tests/test_live_dashboard.py",
+    "old_sha256": "7807521371612dc614b5baf157db8ddb8165fb2823290c3a477201dff355e53a",
+    "new_sha256": "42fc67ea3985e296ebc5e66be49537a3ad0c2a4bedf3380196406b10f252174a"
+  },
+  {
+    "path": "tests/test_live_override_controller.py",
+    "old_sha256": "800f4e2b4b3ca1cf4a41339f2c1c476cdd13f29bb7a4131d937225886e081e1a",
+    "new_sha256": "82b2733a3ffc0927765ab40fb6444fa6ca4eab10dc3a8f251c1dd28aef16da4e"
+  },
+  {
+    "path": "controllers/epuck_waypoint_controller/route_feedback.py",
+    "old_sha256": null,
+    "new_sha256": "0e31d41de8d6821088390e709b4e58bfa7d2ae69e284f5610524929a50bd90f9"
+  },
+  {
+    "path": "validation_runs/client_setup_notes.md",
+    "old_sha256": null,
+    "new_sha256": "f098cdb3db1c3f0a0ccda188e8eaa2f899e6080f67979fbb27a5ca0fc054aaaa"
+  }
+]

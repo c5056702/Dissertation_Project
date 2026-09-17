@@ -1,0 +1,11 @@
+{
+  "pid": 21,
+  "command": [
+    "/usr/local/webots/webots",
+    "--batch",
+    "--mode=fast",
+    "--stdout",
+    "--stderr",
+    "/project/worlds/epuck_waypoint_navigation.wbt"
+  ]
+}

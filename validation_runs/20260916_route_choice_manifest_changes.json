@@ -1,0 +1,57 @@
+[
+  {
+    "path": "CODE_EXPLANATION.md",
+    "old_sha256": "919868741e983e452a686c0f105c15d5320c7696067982ed6330061705e1d992",
+    "new_sha256": "54c9c98aa46e520c4b059ac373594a949675deffac2a4153bfa02049a4ec2c56"
+  },
+  {
+    "path": "controllers/epuck_waypoint_controller/epuck_waypoint_controller.py",
+    "old_sha256": "b232f385aeb4afa16c173dda0be5d5d3f477e9d1778c37516ef2d596cd15aa03",
+    "new_sha256": "b9df04493edbbaf47d84aa097740a847b0ddbfe0dadfdc1f046eb750c68c5cac"
+  },
+  {
+    "path": "controllers/epuck_waypoint_controller/live_dashboard.py",
+    "old_sha256": "3498ee2f5681dadbb5c3325592852f0a8bca050d80f713cc7e3ff0bcec3b2f2b",
+    "new_sha256": "d306966a6862f58f8b3529af9cbf009a749060d4e6c1037d3d683b303a1dbae6"
+  },
+  {
+    "path": "controllers/epuck_waypoint_controller/model.py",
+    "old_sha256": "fb3bf8c226619b1712f14c8e5cd996f79d337ad0904a2d607011be67c60e04ee",
+    "new_sha256": "76d56876080cce9f034d31cec195fea158265a4620d75f89da9306ac43ece93f"
+  },
+  {
+    "path": "instructions.md",
+    "old_sha256": "9f7cdaddfbc30dee50d8245a7d76d1ed00162b6565504fe0c07dcee9ca46e711",
+    "new_sha256": "bf916fbb99bb5e641351861913c50c5264ee14463392c27b7a90c9d4c7ca013c"
+  },
+  {
+    "path": "README.md",
+    "old_sha256": "d122c9c5c1583ef3f134e208db9f3b5e8b1c881da6aed907ef1af4a176ab463f",
+    "new_sha256": "b562b4c28e9458edbada2748e090a26cb47c2c495baaf5f401a591fe9407b7bb"
+  },
+  {
+    "path": "tests/test_expanded_navigation.py",
+    "old_sha256": "bf96e7d812425aebd32c4c5f26c466d69e17cc2224ba51d79b9a7f9c5a177d9f",
+    "new_sha256": "1701d8f3219847217765394d069d44d04d2c0be8cd3ffc12dc6f139ba7ee8be9"
+  },
+  {
+    "path": "tests/test_live_dashboard.py",
+    "old_sha256": "42c663fc8f1ac48b7aec0b921bc7fcdc3bc366888f07dfa771fa5519f08d64f9",
+    "new_sha256": "7807521371612dc614b5baf157db8ddb8165fb2823290c3a477201dff355e53a"
+  },
+  {
+    "path": "tests/test_live_override_controller.py",
+    "old_sha256": "5ccf885e18b43ae618e406187914b1c07360cc00d1e03806f77b7a127b857818",
+    "new_sha256": "800f4e2b4b3ca1cf4a41339f2c1c476cdd13f29bb7a4131d937225886e081e1a"
+  },
+  {
+    "path": "tools/run_live.py",
+    "old_sha256": "ee943140d4da16bedcb4a0b69a89abb089aa0111ee7bbd19292e86b5315e2a35",
+    "new_sha256": "608ba92b35b8aeffd66ab5e702a8aefefe6a5e692ab3c7cb062998e351d5b981"
+  },
+  {
+    "path": "tests/test_route_choice_consistency.py",
+    "old_sha256": null,
+    "new_sha256": "9404078868efd2d8eda4dca1cdd747438bf2cdcce96633b890716e0b6789e568"
+  }
+]

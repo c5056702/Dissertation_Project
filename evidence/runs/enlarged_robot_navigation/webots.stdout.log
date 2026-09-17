@@ -1,0 +1,10 @@
+INFO: epuck_waypoint_controller: Starting controller: python3 -u epuck_waypoint_controller.py
+[status] STATE: IDLE | waiting for START
+[status] STATE: READY | command accepted | start: activated
+[status] STATE: READY | controls active | say GO TO A, GO TO B, or GO TO S
+[status] STATE: READY | command accepted | go to A: pending_confirmation
+[status] STATE: NAVIGATING | gesture | NOD: route_started
+[status] STATE: NAVIGATING | route started | GRAPH_S_A_SHORTEST → A
+[status] STATE: NAVIGATING | navigating | GRAPH_S_A_SHORTEST → A
+[status] STATE: ARRIVED | arrived | destination_reached
+INFO: 'epuck_waypoint_controller' controller exited successfully.

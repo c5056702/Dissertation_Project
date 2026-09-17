@@ -1,0 +1,6 @@
+Command: .\.venv\Scripts\python.exe -m unittest discover -s tests -q
+Final direct test run: 136 tests, 1.164 seconds, OK, exit code 0.
+Environment: existing project Python 3.12.10 virtual environment.
+Source: captured command output from the final regression run during this correction.
+Tests use synthetic landmarks and fake Webots devices where applicable.
+Physical moving-tilt recognition and Docker simulator validation remain unverified for this patch.

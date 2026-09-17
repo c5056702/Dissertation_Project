@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "run_dir": "/project/validation_runs/20260824_024532_896682_gesture_video_control",
+  "source_manifest": "/project/validation_runs/20260824_024532_896682_gesture_video_control/gesture_event_manifest.json",
+  "detected_gestures": [
+    "TILT_LEFT",
+    "NOD",
+    "TILT_LEFT",
+    "NOD",
+    "TILT_RIGHT",
+    "NOD",
+    "SHAKE"
+  ],
+  "controller_gestures": [
+    "TILT_LEFT",
+    "NOD",
+    "TILT_LEFT",
+    "NOD",
+    "TILT_RIGHT",
+    "NOD",
+    "SHAKE"
+  ],
+  "gesture_sources": [
+    "classified_gesture_video_replay",
+    "classified_gesture_video_replay",
+    "classified_gesture_video_replay",
+    "classified_gesture_video_replay",
+    "classified_gesture_video_replay",
+    "classified_gesture_video_replay",
+    "classified_gesture_video_replay"
+  ],
+  "accepted_commands": [
+    "start A",
+    "go to C",
+    "go to B"
+  ],
+  "route_starts": [
+    "S_A_SHORT",
+    "GRAPH_A_C_SHORTEST",
+    "GRAPH_C_B_ALTERNATIVE"
+  ],
+  "expected_routes": [
+    "S_A_SHORT",
+    "GRAPH_A_C_SHORTEST",
+    "GRAPH_C_B_ALTERNATIVE"
+  ],
+  "staged_order_verified": true,
+  "event_order_indices": {
+    "arrival_A": 25,
+    "command_go_to_C": 26,
+    "arrival_C": 44,
+    "command_go_to_B": 45,
+    "interrupt_shake": 56
+  },
+  "final_state": "STOPPED",
+  "result_reason": "gesture_video_replay_completed",
+  "raw_video": "/project/validation_runs/20260824_024532_896682_gesture_video_control/gesture_control_webots_raw.mp4",
+  "raw_video_bytes": 3830702,
+  "no_rendering": false,
+  "microphone_audio_used": false,
+  "uses_production_classifier_manifest": true
+}

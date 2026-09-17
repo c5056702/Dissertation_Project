@@ -1,0 +1,42 @@
+{
+  "created_at": "2026-08-20T22:58:29",
+  "scenario_selection": "transcriptions",
+  "repeat": 1,
+  "visible": false,
+  "record_demo": false,
+  "passed": 5,
+  "total": 5,
+  "postflight_tests": true,
+  "records": [
+    {
+      "scenario": "transcribed_a_short",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_225730_713333_transcribed_a_short_01"
+    },
+    {
+      "scenario": "transcribed_b_long",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_225746_015158_transcribed_b_long_01"
+    },
+    {
+      "scenario": "transcribed_unbounded",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_225801_531449_transcribed_unbounded_01"
+    },
+    {
+      "scenario": "transcribed_wrong_state",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_225810_698355_transcribed_wrong_state_01"
+    },
+    {
+      "scenario": "transcribed_stop",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_225820_199080_transcribed_stop_01"
+    }
+  ]
+}

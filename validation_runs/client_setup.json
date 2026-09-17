@@ -1,0 +1,7 @@
+{
+  "python": "C:\\Users\\manik\\Downloads\\35056702_Dissertation_Final_Project~\\.venv\\Scripts\\python.exe",
+  "webots": "C:\\Program Files\\Webots\\msys64\\mingw64\\bin\\webots.exe",
+  "software_tests_passed": true,
+  "physical_devices_verified": false,
+  "next_step": "run_live.py --list-microphones, then run_live.py --microphone INDEX --require-ready"
+}

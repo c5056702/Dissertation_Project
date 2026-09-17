@@ -1,0 +1,10 @@
+{
+  "pending_and_confirmation_present": true,
+  "travelled_before_override": true,
+  "waited_for_separate_confirmation": true,
+  "zero_motor_targets_while_pending": true,
+  "stationary_after_braking": true,
+  "braking_drift_below_5cm": true,
+  "voice_then_camera_mode": true,
+  "confirmed_destination_b": true
+}

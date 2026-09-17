@@ -1,0 +1,12 @@
+{
+  "name": "blocked_corridor",
+  "expected_terminal": "safe_obstacle_stop",
+  "expected_final_position": "S",
+  "actions": [
+    {
+      "command": "start A",
+      "route_gesture": "TILT_LEFT",
+      "gesture": "NOD"
+    }
+  ]
+}

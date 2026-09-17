@@ -1,0 +1,178 @@
+Collecting mediapipe==0.10.14 (from -r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 1))
+  Obtaining dependency information for mediapipe==0.10.14 from https://files.pythonhosted.org/packages/f0/26/d228fe6e9f2060dde7f7db738968bcd603e9340f064351655b5b2652a664/mediapipe-0.10.14-cp312-cp312-win_amd64.whl.metadata
+  Using cached mediapipe-0.10.14-cp312-cp312-win_amd64.whl.metadata (9.9 kB)
+Collecting jax==0.4.33 (from -r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 2))
+  Obtaining dependency information for jax==0.4.33 from https://files.pythonhosted.org/packages/49/48/0e32458ab7e02d75f423fe8c2ab10d7fa1aba9b314391d2659e68891912b/jax-0.4.33-py3-none-any.whl.metadata
+  Using cached jax-0.4.33-py3-none-any.whl.metadata (22 kB)
+Collecting jaxlib==0.4.33 (from -r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 3))
+  Obtaining dependency information for jaxlib==0.4.33 from https://files.pythonhosted.org/packages/e5/04/fc2e5c522408cd42e96ad152666e2136076983fdf7ff68a69d79e433ecec/jaxlib-0.4.33-cp312-cp312-win_amd64.whl.metadata
+  Using cached jaxlib-0.4.33-cp312-cp312-win_amd64.whl.metadata (1.0 kB)
+Collecting numpy<2,>=1.26 (from -r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 4))
+  Obtaining dependency information for numpy<2,>=1.26 from https://files.pythonhosted.org/packages/16/2e/86f24451c2d530c88daf997cb8d6ac622c1d40d19f5a031ed68a4b73a374/numpy-1.26.4-cp312-cp312-win_amd64.whl.metadata
+  Using cached numpy-1.26.4-cp312-cp312-win_amd64.whl.metadata (61 kB)
+Collecting opencv-contrib-python==4.6.0.66 (from -r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 5))
+  Obtaining dependency information for opencv-contrib-python==4.6.0.66 from https://files.pythonhosted.org/packages/63/0b/6ef1acbaa21e5245c85a42f9f0ecfaf2e7420b24615a00f0eee170328e6b/opencv_contrib_python-4.6.0.66-cp36-abi3-win_amd64.whl.metadata
+  Using cached opencv_contrib_python-4.6.0.66-cp36-abi3-win_amd64.whl.metadata (18 kB)
+Collecting sounddevice<0.6,>=0.5 (from -r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 6))
+  Obtaining dependency information for sounddevice<0.6,>=0.5 from https://files.pythonhosted.org/packages/8d/3e/cbc593c31a5f0d817b3fe97e64aa8461bd0f55cb07b67ce1b776296ae336/sounddevice-0.5.6-py3-none-win_amd64.whl.metadata
+  Downloading sounddevice-0.5.6-py3-none-win_amd64.whl.metadata (1.4 kB)
+Collecting vosk<0.4,>=0.3.45 (from -r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 7))
+  Obtaining dependency information for vosk<0.4,>=0.3.45 from https://files.pythonhosted.org/packages/c0/4c/deb0861f7da9696f8a255f1731bb73e9412cca29c4b3888a3fcb2a930a59/vosk-0.3.45-py3-none-win_amd64.whl.metadata
+  Using cached vosk-0.3.45-py3-none-win_amd64.whl.metadata (1.8 kB)
+Collecting absl-py (from mediapipe==0.10.14->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 1))
+  Obtaining dependency information for absl-py from https://files.pythonhosted.org/packages/58/0a/a10b45aab35b175aded078a462dc8d0c698f5b13946e7cb0869097b78bb6/absl_py-2.5.0-py3-none-any.whl.metadata
+  Using cached absl_py-2.5.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting attrs>=19.1.0 (from mediapipe==0.10.14->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 1))
+  Obtaining dependency information for attrs>=19.1.0 from https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl.metadata
+  Using cached attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting flatbuffers>=2.0 (from mediapipe==0.10.14->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 1))
+  Obtaining dependency information for flatbuffers>=2.0 from https://files.pythonhosted.org/packages/e8/2d/d2a548598be01649e2d46231d151a6c56d10b964d94043a335ae56ea2d92/flatbuffers-25.12.19-py2.py3-none-any.whl.metadata
+  Using cached flatbuffers-25.12.19-py2.py3-none-any.whl.metadata (1.0 kB)
+Collecting matplotlib (from mediapipe==0.10.14->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 1))
+  Obtaining dependency information for matplotlib from https://files.pythonhosted.org/packages/88/89/56649bbaa2fd12e20f3be03dbcc135b0c8676d88bac17977599e3eb442a0/matplotlib-3.11.1-cp312-cp312-win_amd64.whl.metadata
+  Using cached matplotlib-3.11.1-cp312-cp312-win_amd64.whl.metadata (80 kB)
+Collecting protobuf<5,>=4.25.3 (from mediapipe==0.10.14->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 1))
+  Obtaining dependency information for protobuf<5,>=4.25.3 from https://files.pythonhosted.org/packages/f3/16/42a5c7f1001783d2b5bfcecde10127f09010f78982c86ae409122ce3ece6/protobuf-4.25.9-cp310-abi3-win_amd64.whl.metadata
+  Using cached protobuf-4.25.9-cp310-abi3-win_amd64.whl.metadata (541 bytes)
+Collecting ml-dtypes>=0.2.0 (from jax==0.4.33->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 2))
+  Obtaining dependency information for ml-dtypes>=0.2.0 from https://files.pythonhosted.org/packages/ba/db/9c61ec2760b5cbfb1c6558d5c991a6d8fd3271053c32db20506a9a90272b/ml_dtypes-0.6.0-cp312-cp312-win_amd64.whl.metadata
+  Downloading ml_dtypes-0.6.0-cp312-cp312-win_amd64.whl.metadata (8.8 kB)
+Collecting opt-einsum (from jax==0.4.33->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 2))
+  Obtaining dependency information for opt-einsum from https://files.pythonhosted.org/packages/23/cd/066e86230ae37ed0be70aae89aabf03ca8d9f39c8aea0dec8029455b5540/opt_einsum-3.4.0-py3-none-any.whl.metadata
+  Using cached opt_einsum-3.4.0-py3-none-any.whl.metadata (6.3 kB)
+Collecting scipy>=1.10 (from jax==0.4.33->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 2))
+  Obtaining dependency information for scipy>=1.10 from https://files.pythonhosted.org/packages/39/e7/979fd14e75008623df31ba70d6bb144700f68feadcea042021c06a05bf82/scipy-1.18.1-cp312-cp312-win_amd64.whl.metadata
+  Downloading scipy-1.18.1-cp312-cp312-win_amd64.whl.metadata (61 kB)
+     -------------------------------------- 61.2/61.2 kB 154.8 kB/s eta 0:00:00
+Collecting cffi (from sounddevice<0.6,>=0.5->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 6))
+  Obtaining dependency information for cffi from https://files.pythonhosted.org/packages/d9/79/615cc094e2fb508cade7de88d3b4f6c4ec2bab695c97bce9153dc65aadf5/cffi-2.1.1-cp312-cp312-win_amd64.whl.metadata
+  Using cached cffi-2.1.1-cp312-cp312-win_amd64.whl.metadata (2.6 kB)
+Collecting requests (from vosk<0.4,>=0.3.45->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 7))
+  Obtaining dependency information for requests from https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl.metadata
+  Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting srt (from vosk<0.4,>=0.3.45->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 7))
+  Using cached srt-3.5.3-py3-none-any.whl
+Collecting tqdm (from vosk<0.4,>=0.3.45->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 7))
+  Obtaining dependency information for tqdm from https://files.pythonhosted.org/packages/f9/1c/01bfd571a64e7f270e6bab5e33777debe0edc56759233ce84f27dec92d14/tqdm-4.70.0-py3-none-any.whl.metadata
+  Using cached tqdm-4.70.0-py3-none-any.whl.metadata (57 kB)
+Collecting websockets (from vosk<0.4,>=0.3.45->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 7))
+  Obtaining dependency information for websockets from https://files.pythonhosted.org/packages/50/23/493ecfdaf32898e5ea24dc900e33e5e317f9662d5d9ab2d44b2e111b4e1c/websockets-17.1-cp312-cp312-win_amd64.whl.metadata
+  Downloading websockets-17.1-cp312-cp312-win_amd64.whl.metadata (6.5 kB)
+Collecting pycparser (from cffi->sounddevice<0.6,>=0.5->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 6))
+  Obtaining dependency information for pycparser from https://files.pythonhosted.org/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl.metadata
+  Using cached pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)
+INFO: pip is looking at multiple versions of ml-dtypes to determine which version is compatible with other requirements. This could take a while.
+Collecting ml-dtypes>=0.2.0 (from jax==0.4.33->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 2))
+  Obtaining dependency information for ml-dtypes>=0.2.0 from https://files.pythonhosted.org/packages/f5/f0/0cfadd537c5470378b1b32bd859cf2824972174b51b873c9d95cfd7475a5/ml_dtypes-0.5.4-cp312-cp312-win_amd64.whl.metadata
+  Using cached ml_dtypes-0.5.4-cp312-cp312-win_amd64.whl.metadata (9.2 kB)
+INFO: pip is looking at multiple versions of scipy to determine which version is compatible with other requirements. This could take a while.
+Collecting scipy>=1.10 (from jax==0.4.33->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 2))
+  Obtaining dependency information for scipy>=1.10 from https://files.pythonhosted.org/packages/2b/54/9a9edb45345bd6744da5ddfb6628e5d5185920494c6a67ec45b6381004cb/scipy-1.18.0-cp312-cp312-win_amd64.whl.metadata
+  Using cached scipy-1.18.0-cp312-cp312-win_amd64.whl.metadata (61 kB)
+  Obtaining dependency information for scipy>=1.10 from https://files.pythonhosted.org/packages/a2/84/dc08d77fbf3d87d3ee27f6a0c6dcce1de5829a64f2eae85a0ecc1f0daa73/scipy-1.17.1-cp312-cp312-win_amd64.whl.metadata
+  Using cached scipy-1.17.1-cp312-cp312-win_amd64.whl.metadata (60 kB)
+Collecting contourpy>=1.0.1 (from matplotlib->mediapipe==0.10.14->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 1))
+  Obtaining dependency information for contourpy>=1.0.1 from https://files.pythonhosted.org/packages/19/e8/6026ed58a64563186a9ee3f29f41261fd1828f527dd93d33b60feca63352/contourpy-1.3.3-cp312-cp312-win_amd64.whl.metadata
+  Using cached contourpy-1.3.3-cp312-cp312-win_amd64.whl.metadata (5.5 kB)
+Collecting cycler>=0.10 (from matplotlib->mediapipe==0.10.14->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 1))
+  Obtaining dependency information for cycler>=0.10 from https://files.pythonhosted.org/packages/e7/05/c19819d5e3d95294a6f5947fb9b9629efb316b96de511b418c53d245aae6/cycler-0.12.1-py3-none-any.whl.metadata
+  Using cached cycler-0.12.1-py3-none-any.whl.metadata (3.8 kB)
+Collecting fonttools>=4.28.2 (from matplotlib->mediapipe==0.10.14->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 1))
+  Obtaining dependency information for fonttools>=4.28.2 from https://files.pythonhosted.org/packages/6f/1c/ce0e89183c0235ff6cfbf0603d593023a5afa5333efb35ff569cc0be9ce2/fonttools-4.64.0-cp312-cp312-win_amd64.whl.metadata
+  Downloading fonttools-4.64.0-cp312-cp312-win_amd64.whl.metadata (126 kB)
+     ------------------------------------ 126.1/126.1 kB 246.9 kB/s eta 0:00:00
+Collecting kiwisolver>=1.3.1 (from matplotlib->mediapipe==0.10.14->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 1))
+  Obtaining dependency information for kiwisolver>=1.3.1 from https://files.pythonhosted.org/packages/6e/7c/7b210498f9f92e1cd7855f260fa69ef056881087b199ee20c208f0e4189a/kiwisolver-1.5.1-cp312-cp312-win_amd64.whl.metadata
+  Downloading kiwisolver-1.5.1-cp312-cp312-win_amd64.whl.metadata (5.2 kB)
+Collecting packaging>=20.0 (from matplotlib->mediapipe==0.10.14->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 1))
+  Obtaining dependency information for packaging>=20.0 from https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl.metadata
+  Using cached packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pillow>=9 (from matplotlib->mediapipe==0.10.14->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 1))
+  Obtaining dependency information for pillow>=9 from https://files.pythonhosted.org/packages/45/89/da2f7971a317f83d807fdd4065c0af40208e59e692cc43d315a71a0e96d1/pillow-12.3.0-cp312-cp312-win_amd64.whl.metadata
+  Using cached pillow-12.3.0-cp312-cp312-win_amd64.whl.metadata (9.3 kB)
+Collecting pyparsing>=3 (from matplotlib->mediapipe==0.10.14->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 1))
+  Obtaining dependency information for pyparsing>=3 from https://files.pythonhosted.org/packages/10/bd/c038d7cc38edc1aa5bf91ab8068b63d4308c66c4c8bb3cbba7dfbc049f9c/pyparsing-3.3.2-py3-none-any.whl.metadata
+  Using cached pyparsing-3.3.2-py3-none-any.whl.metadata (5.8 kB)
+Collecting python-dateutil>=2.7 (from matplotlib->mediapipe==0.10.14->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 1))
+  Obtaining dependency information for python-dateutil>=2.7 from https://files.pythonhosted.org/packages/ec/57/56b9bcc3c9c6a792fcbaf139543cee77261f3651ca9da0c93f5c1221264b/python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting charset_normalizer<4,>=2 (from requests->vosk<0.4,>=0.3.45->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 7))
+  Obtaining dependency information for charset_normalizer<4,>=2 from https://files.pythonhosted.org/packages/9d/7a/4c6c298171e6b3e745633180ff59350fc0ca0db1ffd28df1e369e0579f71/charset_normalizer-3.5.1-cp312-cp312-win_amd64.whl.metadata
+  Downloading charset_normalizer-3.5.1-cp312-cp312-win_amd64.whl.metadata (46 kB)
+     -------------------------------------- 46.7/46.7 kB 292.0 kB/s eta 0:00:00
+Collecting idna<4,>=2.5 (from requests->vosk<0.4,>=0.3.45->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 7))
+  Obtaining dependency information for idna<4,>=2.5 from https://files.pythonhosted.org/packages/57/b0/0e52c878c53f245edd3a11020f20979b3f490f245af532c7cae3027754b5/idna-3.19-py3-none-any.whl.metadata
+  Downloading idna-3.19-py3-none-any.whl.metadata (9.2 kB)
+Collecting urllib3<3,>=1.26 (from requests->vosk<0.4,>=0.3.45->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 7))
+  Obtaining dependency information for urllib3<3,>=1.26 from https://files.pythonhosted.org/packages/7f/3e/5db95bcf282c52709639744ca2a8b149baccf648e39c8cc87553df9eae0c/urllib3-2.7.0-py3-none-any.whl.metadata
+  Using cached urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting certifi>=2023.5.7 (from requests->vosk<0.4,>=0.3.45->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 7))
+  Obtaining dependency information for certifi>=2023.5.7 from https://files.pythonhosted.org/packages/0b/a7/71ac2cff56fec219ed242bb11b8efb69fcc4bec75db06fb7bfe35de520e6/certifi-2026.7.22-py3-none-any.whl.metadata
+  Using cached certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+Collecting colorama (from tqdm->vosk<0.4,>=0.3.45->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 7))
+  Obtaining dependency information for colorama from https://files.pythonhosted.org/packages/d1/d6/3965ed04c63042e047cb6a3e6ed1a63a35087b6a609aa3a15ed8ac56c221/colorama-0.4.6-py2.py3-none-any.whl.metadata
+  Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting six>=1.5 (from python-dateutil>=2.7->matplotlib->mediapipe==0.10.14->-r F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\requirements.txt (line 1))
+  Obtaining dependency information for six>=1.5 from https://files.pythonhosted.org/packages/b7/ce/149a00dd41f10bc29e5921b496af8b574d8413afcd5e30dfa0ed46c2cc5e/six-1.17.0-py2.py3-none-any.whl.metadata
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Using cached mediapipe-0.10.14-cp312-cp312-win_amd64.whl (50.8 MB)
+Using cached jax-0.4.33-py3-none-any.whl (2.1 MB)
+Using cached jaxlib-0.4.33-cp312-cp312-win_amd64.whl (54.4 MB)
+Using cached opencv_contrib_python-4.6.0.66-cp36-abi3-win_amd64.whl (42.5 MB)
+Using cached numpy-1.26.4-cp312-cp312-win_amd64.whl (15.5 MB)
+Downloading sounddevice-0.5.6-py3-none-win_amd64.whl (1.0 MB)
+   ---------------------------------------- 1.0/1.0 MB 69.5 kB/s eta 0:00:00
+Using cached vosk-0.3.45-py3-none-win_amd64.whl (14.0 MB)
+Using cached attrs-26.1.0-py3-none-any.whl (67 kB)
+Using cached cffi-2.1.1-cp312-cp312-win_amd64.whl (185 kB)
+Using cached flatbuffers-25.12.19-py2.py3-none-any.whl (26 kB)
+Using cached ml_dtypes-0.5.4-cp312-cp312-win_amd64.whl (212 kB)
+Using cached protobuf-4.25.9-cp310-abi3-win_amd64.whl (413 kB)
+Using cached scipy-1.17.1-cp312-cp312-win_amd64.whl (36.5 MB)
+Using cached absl_py-2.5.0-py3-none-any.whl (137 kB)
+Using cached matplotlib-3.11.1-cp312-cp312-win_amd64.whl (9.3 MB)
+Using cached opt_einsum-3.4.0-py3-none-any.whl (71 kB)
+Using cached requests-2.34.2-py3-none-any.whl (73 kB)
+Using cached tqdm-4.70.0-py3-none-any.whl (80 kB)
+Downloading websockets-17.1-cp312-cp312-win_amd64.whl (217 kB)
+   --------------------------------------- 217.8/217.8 kB 55.8 kB/s eta 0:00:00
+Using cached certifi-2026.7.22-py3-none-any.whl (136 kB)
+Downloading charset_normalizer-3.5.1-cp312-cp312-win_amd64.whl (200 kB)
+   --------------------------------------- 200.6/200.6 kB 48.1 kB/s eta 0:00:00
+Using cached contourpy-1.3.3-cp312-cp312-win_amd64.whl (226 kB)
+Using cached cycler-0.12.1-py3-none-any.whl (8.3 kB)
+Downloading fonttools-4.64.0-cp312-cp312-win_amd64.whl (2.5 MB)
+   ---------------------------------------- 2.5/2.5 MB 204.9 kB/s eta 0:00:00
+Downloading idna-3.19-py3-none-any.whl (68 kB)
+   ---------------------------------------- 68.5/68.5 kB 169.5 kB/s eta 0:00:00
+Downloading kiwisolver-1.5.1-cp312-cp312-win_amd64.whl (70 kB)
+   ---------------------------------------- 70.7/70.7 kB 193.3 kB/s eta 0:00:00
+Using cached packaging-26.3-py3-none-any.whl (129 kB)
+Using cached pillow-12.3.0-cp312-cp312-win_amd64.whl (7.2 MB)
+Using cached pyparsing-3.3.2-py3-none-any.whl (122 kB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached urllib3-2.7.0-py3-none-any.whl (131 kB)
+Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Using cached pycparser-3.0-py3-none-any.whl (48 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: flatbuffers, websockets, urllib3, srt, six, pyparsing, pycparser, protobuf, pillow, packaging, opt-einsum, numpy, kiwisolver, idna, fonttools, cycler, colorama, charset_normalizer, certifi, attrs, absl-py, tqdm, scipy, requests, python-dateutil, opencv-contrib-python, ml-dtypes, contourpy, cffi, vosk, sounddevice, matplotlib, jaxlib, jax, mediapipe
+Successfully installed absl-py-2.5.0 attrs-26.1.0 certifi-2026.7.22 cffi-2.1.1 charset_normalizer-3.5.1 colorama-0.4.6 contourpy-1.3.3 cycler-0.12.1 flatbuffers-25.12.19 fonttools-4.64.0 idna-3.19 jax-0.4.33 jaxlib-0.4.33 kiwisolver-1.5.1 matplotlib-3.11.1 mediapipe-0.10.14 ml-dtypes-0.5.4 numpy-1.26.4 opencv-contrib-python-4.6.0.66 opt-einsum-3.4.0 packaging-26.3 pillow-12.3.0 protobuf-4.25.9 pycparser-3.0 pyparsing-3.3.2 python-dateutil-2.9.0.post0 requests-2.34.2 scipy-1.17.1 six-1.17.0 sounddevice-0.5.6 srt-3.5.3 tqdm-4.70.0 urllib3-2.7.0 vosk-0.3.45 websockets-17.1
+
+[notice] A new release of pip is available: 23.2.1 -> 26.2.1
+[notice] To update, run: F:\Head gesture thesis\head_gesture_car\validation_runs\client_portability_clean_20260910\.venv\Scripts\python.exe -m pip install --upgrade pip
+No broken requirements found.
+Recognition and GUI imports passed
+.....................................................................
+----------------------------------------------------------------------
+Ran 69 tests in 0.076s
+
+OK
+No archive manifest in development folder; source tests will still run.
+{
+  "python": "F:\\Head gesture thesis\\head_gesture_car\\validation_runs\\client_portability_clean_20260910\\.venv\\Scripts\\python.exe",
+  "webots": "F:\\Webots-R2025a\\msys64\\mingw64\\bin\\webots.exe",
+  "software_tests_passed": true,
+  "physical_devices_verified": false,
+  "next_step": "run_live.py --list-microphones, then run_live.py --microphone INDEX --require-ready"
+}
+Software ready. Check microphone/camera on this laptop before the demonstration.

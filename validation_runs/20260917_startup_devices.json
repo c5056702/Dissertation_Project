@@ -1,0 +1,17 @@
+{
+  "python": "C:\\Users\\manik\\Downloads\\35056702_Dissertation_Final_Project~\\.venv\\Scripts\\python.exe",
+  "model": "C:\\Users\\manik\\Downloads\\35056702_Dissertation_Final_Project~\\models\\vosk-model-small-en-us-0.15",
+  "ready": false,
+  "voice_ready": false,
+  "camera_ready": false,
+  "face_present": false,
+  "gesture_calibrated": false,
+  "voice_error": "microphone: Microphone did not become ready (16000 Hz: Error opening RawInputStream: Unanticipated host error [PaErrorCode -9999]: 'An invalid parameter was passed to a system function.' [MME error 11]; 44100 Hz: Error opening RawInputStream: Unanticipated host error [PaErrorCode -9999]: 'An invalid parameter was passed to a system function.' [MME error 11])",
+  "camera_error": "camera: No usable webcam delivered frames (source 0/DSHOW: did not open; source 0/MSMF: did not open; source 0/default: did not open; source 1/DSHOW: did not open; source 1/MSMF: did not open; source 1/default: did not open; source 2/DSHOW: did not open; source 2/MSMF: did not open; source 2/default: did not open; source 3/DSHOW: did not open; source 3/MSMF: did not open; source 3/default: did not open; source 4/DSHOW: did not open; source 4/MSMF: did not open; source 4/default: did not open)",
+  "voice_reconnects": 0,
+  "camera_reconnects": 0,
+  "voice": "waiting",
+  "gesture": "waiting",
+  "media_saved": false,
+  "microphone_help": "Run tools/run_live.py --list-microphones, then relaunch with --microphone INDEX."
+}

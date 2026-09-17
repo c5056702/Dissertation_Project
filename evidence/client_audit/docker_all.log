@@ -1,0 +1,383 @@
+ Container head_gesture_car-webots-validation-run-59096d469178 Creating 
+ Container head_gesture_car-webots-validation-run-59096d469178 Created 
+test_explicit_missing_webots_does_not_silently_select_another (test_client_portability.ClientPortabilityTests) ... ok
+test_live_cannot_inherit_replay_or_fault_injection (test_client_portability.ClientPortabilityTests) ... ok
+test_manifest_rejects_traversal (test_client_portability.ClientPortabilityTests) ... ok
+test_adapter_that_becomes_inactive_is_replaced (test_device_recovery.DeviceRecoveryTests) ... ok
+test_camera_disconnect_requires_new_adapter_and_recalibration (test_device_recovery.DeviceRecoveryTests) ... ok
+test_camera_frame_failure_is_reported_as_disconnect (test_device_recovery.DeviceRecoveryTests) ... ok
+test_camera_indicator_is_used_for_gesture_only_and_safety_shake (test_device_recovery.DeviceRecoveryTests) ... ok
+test_live_vosk_enables_word_confidence_output (test_device_recovery.DeviceRecoveryTests) ... ok
+test_microphone_callback_and_partial_transcript_reach_vosk_trace (test_device_recovery.DeviceRecoveryTests) ... ok
+test_microphone_callback_stall_is_reported_as_disconnect (test_device_recovery.DeviceRecoveryTests) ... ok
+test_microphone_disconnect_is_closed_then_reconnected (test_device_recovery.DeviceRecoveryTests) ... ok
+test_missing_camera_connects_automatically_after_retry (test_device_recovery.DeviceRecoveryTests) ... ok
+test_strict_preflight_fails_closed_and_releases_partial_device (test_device_recovery.DeviceRecoveryTests) ... ok
+test_voice_and_gesture_from_same_poll_are_fused (test_device_recovery.DeviceRecoveryTests) ... ok
+test_current_position_replan_starts_at_measured_pose (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_destination_command_defaults_to_shortest_and_needs_nod (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_every_directed_waypoint_pair_has_shortest_and_alternative (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_expanded_command_vocabulary_is_bounded (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_expanded_vosk_transcriptions_use_confidence_boundary (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_latest_voice_destination_replaces_pending_midroute_override (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_live_startup_gate_is_activation_only (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_mid_route_destination_change_uses_current_pose (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_mid_route_direction_pauses_and_continue_resumes (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_replan_rejects_pose_outside_route_network (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_reverse_requests_active_origin (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_right_tilt_selects_distinct_alternative (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_standalone_start_activates_without_movement_request (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_stop_wins_while_paused (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_face_loss_discards_incomplete_motion (test_input_adapters.InputAdapterLogicTests) ... ok
+test_held_tilt_emits_once_and_rearms_after_neutral (test_input_adapters.InputAdapterLogicTests) ... ok
+test_nod_requires_sustained_pitch_and_emits_once (test_input_adapters.InputAdapterLogicTests) ... ok
+test_shake_requires_both_yaw_directions (test_input_adapters.InputAdapterLogicTests) ... ok
+test_single_head_turn_is_not_a_shake (test_input_adapters.InputAdapterLogicTests) ... ok
+test_smoothed_head_pose_classification (test_input_adapters.InputAdapterLogicTests) ... ok
+test_standalone_start_uses_safe_activation_threshold_without_movement (test_input_adapters.InputAdapterLogicTests) ... ok
+test_vosk_result_accepts_bounded_high_confidence_command (test_input_adapters.InputAdapterLogicTests) ... ok
+test_vosk_result_rejects_low_confidence_and_unbounded_text (test_input_adapters.InputAdapterLogicTests) ... ok
+test_live_dashboard (unittest.loader.ModuleSkipped) ... skipped "Host dashboard rendering needs OpenCV and NumPy: No module named 'cv2'"
+test_lost_gps_stops_both_motors (test_navigation.NavigatorTests) ... ok
+test_obstacle_stops_both_motors (test_navigation.NavigatorTests) ... ok
+test_valid_navigation_commands_forward_motion (test_navigation.NavigatorTests) ... ok
+test_baseline_route_sequence (test_task_machine.TaskMachineTests) ... ok
+test_command_normalisation_is_bounded (test_task_machine.TaskMachineTests) ... ok
+test_expanded_b_route_uses_long_selection (test_task_machine.TaskMachineTests) ... ok
+test_invalid_command_fails_closed (test_task_machine.TaskMachineTests) ... ok
+test_keyboard_emergency_keys_are_bounded (test_task_machine.TaskMachineTests) ... ok
+test_shake_stops_and_resets (test_task_machine.TaskMachineTests) ... ok
+test_start_requires_route_selection_before_nod (test_task_machine.TaskMachineTests) ... ok
+test_voice_stop_resets_any_pending_state (test_task_machine.TaskMachineTests) ... ok
+test_classified_gesture_manifest_replays_exact_timestamps (test_traceability.TraceabilityTests) ... ok
+test_input_trace_keeps_pixels_out_of_json_status (test_traceability.TraceabilityTests) ... ok
+test_live_logger_appends_across_reset_sessions (test_traceability.TraceabilityTests) ... ok
+test_transcript_replay_uses_text_timing_without_audio (test_traceability.TraceabilityTests) ... ok
+test_unverified_gesture_manifest_is_rejected (test_traceability.TraceabilityTests) ... ok
+test_vosk_trace_keeps_decision_evidence_without_audio (test_traceability.TraceabilityTests) ... ok
+test_a_workflow_accepts_transcript_format_variations (test_transcription_workflows.TranscribedCommandWorkflowTests) ... ok
+test_b_workflow_accepts_transcript_case_variations (test_transcription_workflows.TranscribedCommandWorkflowTests) ... ok
+test_transcribed_stop_is_global_after_normalisation (test_transcription_workflows.TranscribedCommandWorkflowTests) ... ok
+test_unbounded_and_wrong_state_transcripts_fail_closed (test_transcription_workflows.TranscribedCommandWorkflowTests) ... ok
+test_vosk_json_confidence_boundary_uses_transcribed_words (test_transcription_workflows.TranscribedCommandWorkflowTests) ... ok
+test_metrics_separate_activation_rejection_and_confirmed_response (test_validation_metrics.ValidationMetricTests) ... ok
+test_vendored_webots_resources_are_complete (test_world_configuration.WorldConfigurationTests) ... ok
+test_waypoint_coordinates_match_reference_view (test_world_configuration.WorldConfigurationTests) ... ok
+test_world_has_required_navigation_and_overview_configuration (test_world_configuration.WorldConfigurationTests) ... ok
+test_world_uses_supported_named_geometry (test_world_configuration.WorldConfigurationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 65 tests in 0.033s
+
+OK (skipped=1)
+test_explicit_missing_webots_does_not_silently_select_another (test_client_portability.ClientPortabilityTests) ... ok
+test_live_cannot_inherit_replay_or_fault_injection (test_client_portability.ClientPortabilityTests) ... ok
+test_manifest_rejects_traversal (test_client_portability.ClientPortabilityTests) ... ok
+test_adapter_that_becomes_inactive_is_replaced (test_device_recovery.DeviceRecoveryTests) ... ok
+test_camera_disconnect_requires_new_adapter_and_recalibration (test_device_recovery.DeviceRecoveryTests) ... ok
+test_camera_frame_failure_is_reported_as_disconnect (test_device_recovery.DeviceRecoveryTests) ... ok
+test_camera_indicator_is_used_for_gesture_only_and_safety_shake (test_device_recovery.DeviceRecoveryTests) ... ok
+test_live_vosk_enables_word_confidence_output (test_device_recovery.DeviceRecoveryTests) ... ok
+test_microphone_callback_and_partial_transcript_reach_vosk_trace (test_device_recovery.DeviceRecoveryTests) ... ok
+test_microphone_callback_stall_is_reported_as_disconnect (test_device_recovery.DeviceRecoveryTests) ... ok
+test_microphone_disconnect_is_closed_then_reconnected (test_device_recovery.DeviceRecoveryTests) ... ok
+test_missing_camera_connects_automatically_after_retry (test_device_recovery.DeviceRecoveryTests) ... ok
+test_strict_preflight_fails_closed_and_releases_partial_device (test_device_recovery.DeviceRecoveryTests) ... ok
+test_voice_and_gesture_from_same_poll_are_fused (test_device_recovery.DeviceRecoveryTests) ... ok
+test_current_position_replan_starts_at_measured_pose (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_destination_command_defaults_to_shortest_and_needs_nod (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_every_directed_waypoint_pair_has_shortest_and_alternative (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_expanded_command_vocabulary_is_bounded (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_expanded_vosk_transcriptions_use_confidence_boundary (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_latest_voice_destination_replaces_pending_midroute_override (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_live_startup_gate_is_activation_only (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_mid_route_destination_change_uses_current_pose (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_mid_route_direction_pauses_and_continue_resumes (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_replan_rejects_pose_outside_route_network (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_reverse_requests_active_origin (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_right_tilt_selects_distinct_alternative (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_standalone_start_activates_without_movement_request (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_stop_wins_while_paused (test_expanded_navigation.ExpandedNavigationTests) ... ok
+test_face_loss_discards_incomplete_motion (test_input_adapters.InputAdapterLogicTests) ... ok
+test_held_tilt_emits_once_and_rearms_after_neutral (test_input_adapters.InputAdapterLogicTests) ... ok
+test_nod_requires_sustained_pitch_and_emits_once (test_input_adapters.InputAdapterLogicTests) ... ok
+test_shake_requires_both_yaw_directions (test_input_adapters.InputAdapterLogicTests) ... ok
+test_single_head_turn_is_not_a_shake (test_input_adapters.InputAdapterLogicTests) ... ok
+test_smoothed_head_pose_classification (test_input_adapters.InputAdapterLogicTests) ... ok
+test_standalone_start_uses_safe_activation_threshold_without_movement (test_input_adapters.InputAdapterLogicTests) ... ok
+test_vosk_result_accepts_bounded_high_confidence_command (test_input_adapters.InputAdapterLogicTests) ... ok
+test_vosk_result_rejects_low_confidence_and_unbounded_text (test_input_adapters.InputAdapterLogicTests) ... ok
+test_live_dashboard (unittest.loader.ModuleSkipped) ... skipped "Host dashboard rendering needs OpenCV and NumPy: No module named 'cv2'"
+test_lost_gps_stops_both_motors (test_navigation.NavigatorTests) ... ok
+test_obstacle_stops_both_motors (test_navigation.NavigatorTests) ... ok
+test_valid_navigation_commands_forward_motion (test_navigation.NavigatorTests) ... ok
+test_baseline_route_sequence (test_task_machine.TaskMachineTests) ... ok
+test_command_normalisation_is_bounded (test_task_machine.TaskMachineTests) ... ok
+test_expanded_b_route_uses_long_selection (test_task_machine.TaskMachineTests) ... ok
+test_invalid_command_fails_closed (test_task_machine.TaskMachineTests) ... ok
+test_keyboard_emergency_keys_are_bounded (test_task_machine.TaskMachineTests) ... ok
+test_shake_stops_and_resets (test_task_machine.TaskMachineTests) ... ok
+test_start_requires_route_selection_before_nod (test_task_machine.TaskMachineTests) ... ok
+test_voice_stop_resets_any_pending_state (test_task_machine.TaskMachineTests) ... ok
+test_classified_gesture_manifest_replays_exact_timestamps (test_traceability.TraceabilityTests) ... ok
+test_input_trace_keeps_pixels_out_of_json_status (test_traceability.TraceabilityTests) ... ok
+test_live_logger_appends_across_reset_sessions (test_traceability.TraceabilityTests) ... ok
+test_transcript_replay_uses_text_timing_without_audio (test_traceability.TraceabilityTests) ... ok
+test_unverified_gesture_manifest_is_rejected (test_traceability.TraceabilityTests) ... ok
+test_vosk_trace_keeps_decision_evidence_without_audio (test_traceability.TraceabilityTests) ... ok
+test_a_workflow_accepts_transcript_format_variations (test_transcription_workflows.TranscribedCommandWorkflowTests) ... ok
+test_b_workflow_accepts_transcript_case_variations (test_transcription_workflows.TranscribedCommandWorkflowTests) ... ok
+test_transcribed_stop_is_global_after_normalisation (test_transcription_workflows.TranscribedCommandWorkflowTests) ... ok
+test_unbounded_and_wrong_state_transcripts_fail_closed (test_transcription_workflows.TranscribedCommandWorkflowTests) ... ok
+test_vosk_json_confidence_boundary_uses_transcribed_words (test_transcription_workflows.TranscribedCommandWorkflowTests) ... ok
+test_metrics_separate_activation_rejection_and_confirmed_response (test_validation_metrics.ValidationMetricTests) ... ok
+test_vendored_webots_resources_are_complete (test_world_configuration.WorldConfigurationTests) ... ok
+test_waypoint_coordinates_match_reference_view (test_world_configuration.WorldConfigurationTests) ... ok
+test_world_has_required_navigation_and_overview_configuration (test_world_configuration.WorldConfigurationTests) ... ok
+test_world_uses_supported_named_geometry (test_world_configuration.WorldConfigurationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 65 tests in 0.034s
+
+OK (skipped=1)
+{
+  "created_at": "2026-09-10T08:41:55",
+  "scenario_selection": "all",
+  "repeat": 1,
+  "visible": false,
+  "record_demo": false,
+  "passed": 38,
+  "total": 38,
+  "postflight_tests": true,
+  "records": [
+    {
+      "scenario": "baseline_short",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083725_132961_baseline_short_01"
+    },
+    {
+      "scenario": "baseline_long",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083737_650081_baseline_long_01"
+    },
+    {
+      "scenario": "expanded_b_short",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083746_695474_expanded_b_short_01"
+    },
+    {
+      "scenario": "expanded_b_long",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083755_254476_expanded_b_long_01"
+    },
+    {
+      "scenario": "goto_a_shortest",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083804_050827_goto_a_shortest_01"
+    },
+    {
+      "scenario": "goto_a_alternative",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083811_215166_goto_a_alternative_01"
+    },
+    {
+      "scenario": "goto_b_shortest",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083818_050225_goto_b_shortest_01"
+    },
+    {
+      "scenario": "goto_b_alternative",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083825_088526_goto_b_alternative_01"
+    },
+    {
+      "scenario": "goto_a_to_s",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083832_477613_goto_a_to_s_01"
+    },
+    {
+      "scenario": "goto_a_to_b",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083839_766181_goto_a_to_b_01"
+    },
+    {
+      "scenario": "goto_b_to_a",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083847_254828_goto_b_to_a_01"
+    },
+    {
+      "scenario": "midroute_destination_change",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083854_658710_midroute_destination_change_01"
+    },
+    {
+      "scenario": "midroute_alternative",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083901_850956_midroute_alternative_01"
+    },
+    {
+      "scenario": "midroute_continue",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083908_842620_midroute_continue_01"
+    },
+    {
+      "scenario": "midroute_reverse",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083915_393875_midroute_reverse_01"
+    },
+    {
+      "scenario": "midroute_forward",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083921_490184_midroute_forward_01"
+    },
+    {
+      "scenario": "demo_showcase",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083928_033610_demo_showcase_01"
+    },
+    {
+      "scenario": "transcribed_a_short",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083937_833180_transcribed_a_short_01"
+    },
+    {
+      "scenario": "transcribed_b_long",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083945_934592_transcribed_b_long_01"
+    },
+    {
+      "scenario": "transcribed_unbounded",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_083955_029536_transcribed_unbounded_01"
+    },
+    {
+      "scenario": "transcribed_wrong_state",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084001_217232_transcribed_wrong_state_01"
+    },
+    {
+      "scenario": "transcribed_stop",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084007_509501_transcribed_stop_01"
+    },
+    {
+      "scenario": "voice_stop",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084013_414280_voice_stop_01"
+    },
+    {
+      "scenario": "head_shake",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084019_654774_head_shake_01"
+    },
+    {
+      "scenario": "keyboard_stop",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084025_646992_keyboard_stop_01"
+    },
+    {
+      "scenario": "obstacle_stop",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084032_014514_obstacle_stop_01"
+    },
+    {
+      "scenario": "localisation_loss",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084038_200505_localisation_loss_01"
+    },
+    {
+      "scenario": "invalid_command",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084044_199052_invalid_command_01"
+    },
+    {
+      "scenario": "conflicting_stop",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084050_440106_conflicting_stop_01"
+    },
+    {
+      "scenario": "blocked_corridor",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084056_381058_blocked_corridor_01"
+    },
+    {
+      "scenario": "face_absent",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084102_670905_face_absent_01"
+    },
+    {
+      "scenario": "controller_failure",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084108_917182_controller_failure_01"
+    },
+    {
+      "scenario": "stop_on_s_a",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084115_174506_stop_on_s_a_01"
+    },
+    {
+      "scenario": "stop_on_a_b",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084121_464383_stop_on_a_b_01"
+    },
+    {
+      "scenario": "stop_on_a_c",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084127_860651_stop_on_a_c_01"
+    },
+    {
+      "scenario": "stop_on_b_c",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084134_049463_stop_on_b_c_01"
+    },
+    {
+      "scenario": "stop_on_c_a",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084141_287772_stop_on_c_a_01"
+    },
+    {
+      "scenario": "stop_on_a_s",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260910_084148_072832_stop_on_a_s_01"
+    }
+  ],
+  "summary_path": "/project/validation_runs/suite_summaries/20260910_084155_498202_all.json"
+}

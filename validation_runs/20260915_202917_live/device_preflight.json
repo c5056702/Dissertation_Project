@@ -1,0 +1,31 @@
+{
+  "python": "C:\\Users\\manik\\Downloads\\35056702_Dissertation_Final_Project~\\.venv\\Scripts\\python.exe",
+  "model": "C:\\Users\\manik\\Downloads\\35056702_Dissertation_Final_Project~\\models\\vosk-model-small-en-us-0.15",
+  "ready": true,
+  "voice_ready": true,
+  "camera_ready": true,
+  "face_present": false,
+  "gesture_calibrated": false,
+  "voice_error": null,
+  "camera_error": null,
+  "voice_reconnects": 1,
+  "camera_reconnects": 1,
+  "voice": "ready",
+  "gesture": "ready",
+  "microphone_name": "Microphone Array (Realtek(R) Au",
+  "microphone_sample_rate": 16000,
+  "microphone_callbacks": 12,
+  "microphone_audio_bytes": 96000,
+  "microphone_audio_peak": 9,
+  "microphone_signal_detected": false,
+  "microphone_partial": "",
+  "last_voice_decision": null,
+  "microphone_pipeline_verified": true,
+  "camera_index": 0,
+  "camera_backend": "DSHOW",
+  "camera_resolution": [
+    640,
+    480
+  ],
+  "media_saved": false
+}

@@ -1,0 +1,18 @@
+{
+  "python": "F:\\Head gesture thesis\\head_gesture_car\\.venv\\Scripts\\python.exe",
+  "model": "F:\\Head gesture thesis\\head_gesture_car\\models\\vosk-model-small-en-us-0.15",
+  "ready": false,
+  "voice_ready": true,
+  "camera_ready": false,
+  "face_present": false,
+  "gesture_calibrated": false,
+  "voice_error": null,
+  "camera_error": "camera: No usable webcam delivered frames (source 0/DSHOW: did not open; source 0/MSMF: did not open; source 0/default: did not open; source 1/DSHOW: did not open; source 1/MSMF: did not open; source 1/default: did not open; source 2/DSHOW: did not open; source 2/MSMF: did not open; source 2/default: did not open; source 3/DSHOW: did not open; source 3/MSMF: did not open; source 3/default: did not open; source 4/DSHOW: did not open; source 4/MSMF: did not open; source 4/default: did not open)",
+  "voice_reconnects": 1,
+  "camera_reconnects": 0,
+  "voice": "ready",
+  "gesture": "waiting",
+  "microphone_name": "Microphone (Steam Streaming Microphone Wave)",
+  "microphone_sample_rate": 16000,
+  "media_saved": false
+}

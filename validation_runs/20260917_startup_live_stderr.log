@@ -1,0 +1,8 @@
+[preflight] Initialization can take longer than --wait-seconds. Ctrl+C cancels.
+[preflight] Loading Vosk and opening the microphone...
+[preflight] Loading MediaPipe/OpenCV and opening the camera...
+[preflight] Initialization finished after 9.6s; checking device data (retry window 15s).
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+W0000 00:00:1789601656.952092   22428 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.
+W0000 00:00:1789601656.966092   22428 inference_feedback_manager.cc:114] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.

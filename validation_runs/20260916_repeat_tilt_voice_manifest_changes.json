@@ -1,0 +1,80 @@
+[
+  {
+    "path": "CODE_EXPLANATION.md",
+    "old_sha256": "83ebd93bb1883c051afeee0340c01fc078f663de5c3d01f6e2ba16b5cbdfa95a",
+    "new_sha256": "5f742ace0c51340ee3136a7f1a6d780e4463d0d74894ff2502645621214ee0c2",
+    "reason": "local correction reviewed and tested"
+  },
+  {
+    "path": "controllers/epuck_waypoint_controller/epuck_waypoint_controller.py",
+    "old_sha256": "f101f119f2398b988e194762060da85bc9d6598d3c16b0c1fd7ff1d25892c15c",
+    "new_sha256": "d1f479c219181e8ba94597aa6cd24255f19f51ada25e8966cf89caa50134750d",
+    "reason": "local correction reviewed and tested"
+  },
+  {
+    "path": "controllers/epuck_waypoint_controller/input_adapters.py",
+    "old_sha256": "bc8a78b180cbff97ca9fb6b44f6718a6292529032d4687f590369a67ff9d8b08",
+    "new_sha256": "b497aa641467eb355bbe1683fd1d8ee114bac7979036401d84c89a32da960bb0",
+    "reason": "local correction reviewed and tested"
+  },
+  {
+    "path": "controllers/epuck_waypoint_controller/live_dashboard.py",
+    "old_sha256": "80345cc010e13b1b7315e36b3ebfd8af447f346316600f2811ae46d2c6ba0150",
+    "new_sha256": "ff0067de804745093c94b05e83f66df0c3daa945e418881b456eb57dddf09768",
+    "reason": "local correction reviewed and tested"
+  },
+  {
+    "path": "controllers/epuck_waypoint_controller/model.py",
+    "old_sha256": "af5931d0b765e632fb9410616acc68c8be7d946ba090a5a53fcf54759f9bdb19",
+    "new_sha256": "fb3bf8c226619b1712f14c8e5cd996f79d337ad0904a2d607011be67c60e04ee",
+    "reason": "local correction reviewed and tested"
+  },
+  {
+    "path": "instructions.md",
+    "old_sha256": "2dc5c46aaa8e705dcb703844ec45bf390de84b9c15da3e7bd1a73e7183a42834",
+    "new_sha256": "b2e2d99343473edb5f4ef041747241b09cdcd75068ad8a248f23b167cfd05546",
+    "reason": "local correction reviewed and tested"
+  },
+  {
+    "path": "README.md",
+    "old_sha256": "888f836335c7b813e0ac9abb7c0923c8a769114721426a790eed5043ee61c1b5",
+    "new_sha256": "d122c9c5c1583ef3f134e208db9f3b5e8b1c881da6aed907ef1af4a176ab463f",
+    "reason": "local correction reviewed and tested"
+  },
+  {
+    "path": "tests/test_input_adapters.py",
+    "old_sha256": "f3f760429fea44821aa52ed968eca7412dcce88fa8126f7befe927f50080cf42",
+    "new_sha256": "eb1292f3c048022e6762b2c36acc272433f71f7051f6fda9282c9001127e22fe",
+    "reason": "pre-existing test edits reviewed; content preserved"
+  },
+  {
+    "path": "tests/test_live_dashboard.py",
+    "old_sha256": "33353b5f7e1d4188d0fd7449dc1475af45959941bfadf6cbbfe317df72d6f222",
+    "new_sha256": "99f25f0e56286167c41d3d5b559971aa697520cfb54270b32544a13018e2f201",
+    "reason": "local correction reviewed and tested"
+  },
+  {
+    "path": "tests/test_live_override_controller.py",
+    "old_sha256": "3c06cc87bc562228b201bbcd2491b4c7f1dd4eb7cf8371f0b2b6074c05b6dee9",
+    "new_sha256": "e7d63f62cf009487924e2b734c87ff05a285816e473ae10847b5a879d7c4f5ec",
+    "reason": "local correction reviewed and tested"
+  },
+  {
+    "path": "tests/test_gesture_rearm_feedback.py",
+    "old_sha256": null,
+    "new_sha256": "9e41bf2e527167d5eb47858ff5a6e8964b27c36dcbeae42028bbcc140fced0e1",
+    "reason": "new regression tests"
+  },
+  {
+    "path": "tests/test_gesture_pose_geometry.py",
+    "old_sha256": null,
+    "new_sha256": "ddf7269a082ddc425fbd38fccf498fbc057d6c07607ae9a228a34a6bee2b1076",
+    "reason": "new regression tests"
+  },
+  {
+    "path": "tests/test_voice_decisions.py",
+    "old_sha256": null,
+    "new_sha256": "8497536fb0fbc72be547dc66ea78edbc9858d131895ca70838d0f86e1bddb80e",
+    "reason": "new regression tests"
+  }
+]

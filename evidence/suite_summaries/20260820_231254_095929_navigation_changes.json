@@ -1,0 +1,84 @@
+{
+  "created_at": "2026-08-20T23:12:54",
+  "scenario_selection": "navigation_changes",
+  "repeat": 1,
+  "visible": false,
+  "record_demo": false,
+  "passed": 12,
+  "total": 12,
+  "postflight_tests": true,
+  "records": [
+    {
+      "scenario": "goto_a_shortest",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231040_663281_goto_a_shortest_01"
+    },
+    {
+      "scenario": "goto_a_alternative",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231053_924342_goto_a_alternative_01"
+    },
+    {
+      "scenario": "goto_b_shortest",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231109_247513_goto_b_shortest_01"
+    },
+    {
+      "scenario": "goto_b_alternative",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231119_249620_goto_b_alternative_01"
+    },
+    {
+      "scenario": "goto_a_to_s",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231129_800897_goto_a_to_s_01"
+    },
+    {
+      "scenario": "goto_a_to_b",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231139_816387_goto_a_to_b_01"
+    },
+    {
+      "scenario": "goto_b_to_a",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231155_070325_goto_b_to_a_01"
+    },
+    {
+      "scenario": "midroute_destination_change",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231205_628043_midroute_destination_change_01"
+    },
+    {
+      "scenario": "midroute_alternative",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231215_587928_midroute_alternative_01"
+    },
+    {
+      "scenario": "midroute_continue",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231225_586570_midroute_continue_01"
+    },
+    {
+      "scenario": "midroute_reverse",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231235_042975_midroute_reverse_01"
+    },
+    {
+      "scenario": "midroute_forward",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231244_245916_midroute_forward_01"
+    }
+  ]
+}

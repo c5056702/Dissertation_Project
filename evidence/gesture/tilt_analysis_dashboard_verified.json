@@ -1,0 +1,247 @@
+{
+  "video": "F:\\Head gesture thesis\\tilt_gesture.mp4",
+  "duration_seconds": 70.057,
+  "fps": 25.08,
+  "frames_processed": 1757,
+  "calibration_frames_required": 45,
+  "calibration_completed": true,
+  "face_detected_frames": 1530,
+  "face_detection_rate_percent": 87.08,
+  "face_absence_segments": [
+    {
+      "start_seconds": 15.511,
+      "end_seconds": 15.71,
+      "duration_seconds": 0.199
+    },
+    {
+      "start_seconds": 15.71,
+      "end_seconds": 16.148,
+      "duration_seconds": 0.439
+    },
+    {
+      "start_seconds": 16.188,
+      "end_seconds": 16.348,
+      "duration_seconds": 0.159
+    },
+    {
+      "start_seconds": 17.424,
+      "end_seconds": 18.302,
+      "duration_seconds": 0.877
+    },
+    {
+      "start_seconds": 20.574,
+      "end_seconds": 20.654,
+      "duration_seconds": 0.08
+    },
+    {
+      "start_seconds": 20.654,
+      "end_seconds": 21.491,
+      "duration_seconds": 0.837
+    },
+    {
+      "start_seconds": 21.491,
+      "end_seconds": 21.81,
+      "duration_seconds": 0.319
+    },
+    {
+      "start_seconds": 25.957,
+      "end_seconds": 26.037,
+      "duration_seconds": 0.08
+    },
+    {
+      "start_seconds": 26.157,
+      "end_seconds": 28.748,
+      "duration_seconds": 2.592
+    },
+    {
+      "start_seconds": 40.989,
+      "end_seconds": 41.468,
+      "duration_seconds": 0.478
+    },
+    {
+      "start_seconds": 41.508,
+      "end_seconds": 41.747,
+      "duration_seconds": 0.239
+    },
+    {
+      "start_seconds": 41.747,
+      "end_seconds": 42.026,
+      "duration_seconds": 0.279
+    },
+    {
+      "start_seconds": 42.305,
+      "end_seconds": 42.385,
+      "duration_seconds": 0.08
+    },
+    {
+      "start_seconds": 42.465,
+      "end_seconds": 42.544,
+      "duration_seconds": 0.08
+    },
+    {
+      "start_seconds": 42.584,
+      "end_seconds": 42.704,
+      "duration_seconds": 0.12
+    },
+    {
+      "start_seconds": 51.356,
+      "end_seconds": 53.23,
+      "duration_seconds": 1.874
+    },
+    {
+      "start_seconds": 56.221,
+      "end_seconds": 56.3,
+      "duration_seconds": 0.08
+    },
+    {
+      "start_seconds": 56.3,
+      "end_seconds": 56.819,
+      "duration_seconds": 0.518
+    },
+    {
+      "start_seconds": 56.859,
+      "end_seconds": 57.018,
+      "duration_seconds": 0.159
+    },
+    {
+      "start_seconds": 57.098,
+      "end_seconds": 57.178,
+      "duration_seconds": 0.08
+    },
+    {
+      "start_seconds": 59.45,
+      "end_seconds": 59.57,
+      "duration_seconds": 0.12
+    },
+    {
+      "start_seconds": 59.61,
+      "end_seconds": 59.729,
+      "duration_seconds": 0.12
+    },
+    {
+      "start_seconds": 59.729,
+      "end_seconds": 59.809,
+      "duration_seconds": 0.08
+    },
+    {
+      "start_seconds": 60.527,
+      "end_seconds": 60.647,
+      "duration_seconds": 0.12
+    }
+  ],
+  "longest_face_absence_seconds": 2.592,
+  "gesture_counts": {
+    "NOD": 4,
+    "SHAKE": 3,
+    "TILT_LEFT": 2,
+    "TILT_RIGHT": 2
+  },
+  "gesture_events": [
+    {
+      "gesture": "TILT_LEFT",
+      "frame": 88,
+      "time_seconds": 3.509,
+      "evidence": {
+        "roll": -0.3032,
+        "stable_frames": 4
+      }
+    },
+    {
+      "gesture": "TILT_LEFT",
+      "frame": 182,
+      "time_seconds": 7.257,
+      "evidence": {
+        "roll": -0.3063,
+        "stable_frames": 4
+      }
+    },
+    {
+      "gesture": "TILT_RIGHT",
+      "frame": 258,
+      "time_seconds": 10.287,
+      "evidence": {
+        "roll": 0.3249,
+        "stable_frames": 4
+      }
+    },
+    {
+      "gesture": "TILT_RIGHT",
+      "frame": 330,
+      "time_seconds": 13.158,
+      "evidence": {
+        "roll": 0.3281,
+        "stable_frames": 4
+      }
+    },
+    {
+      "gesture": "NOD",
+      "frame": 387,
+      "time_seconds": 15.431,
+      "evidence": {
+        "pitch_peak_abs": 0.0882,
+        "stable_frames": 4
+      }
+    },
+    {
+      "gesture": "SHAKE",
+      "frame": 797,
+      "time_seconds": 31.779,
+      "evidence": {
+        "yaw_span": 0.1047,
+        "yaw_min": -0.006,
+        "yaw_max": 0.0986
+      }
+    },
+    {
+      "gesture": "NOD",
+      "frame": 909,
+      "time_seconds": 36.244,
+      "evidence": {
+        "pitch_peak_abs": 0.1406,
+        "stable_frames": 4
+      }
+    },
+    {
+      "gesture": "NOD",
+      "frame": 1022,
+      "time_seconds": 40.75,
+      "evidence": {
+        "pitch_peak_abs": 0.0881,
+        "stable_frames": 4
+      }
+    },
+    {
+      "gesture": "SHAKE",
+      "frame": 1126,
+      "time_seconds": 44.897,
+      "evidence": {
+        "yaw_span": 0.1024,
+        "yaw_min": -0.0157,
+        "yaw_max": 0.0867
+      }
+    },
+    {
+      "gesture": "SHAKE",
+      "frame": 1402,
+      "time_seconds": 55.902,
+      "evidence": {
+        "yaw_span": 0.1382,
+        "yaw_min": -0.1362,
+        "yaw_max": 0.002
+      }
+    },
+    {
+      "gesture": "NOD",
+      "frame": 1491,
+      "time_seconds": 59.45,
+      "evidence": {
+        "pitch_peak_abs": 0.1008,
+        "stable_frames": 4
+      }
+    }
+  ],
+  "uses_production_classifier": true,
+  "replayed_at_camera_timing": false,
+  "uses_recorded_frame_timestamps": true,
+  "retained_media_or_landmarks": false
+}

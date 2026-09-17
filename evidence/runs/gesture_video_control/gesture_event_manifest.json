@@ -1,0 +1,392 @@
+{
+  "video": "F:\\Head gesture thesis\\head_gesture_car\\validation_runs\\gesture_video_control\\gesture_control_sequence.mp4",
+  "duration_seconds": 131.32,
+  "fps": 25.0,
+  "frames_processed": 3283,
+  "calibration_frames_required": 45,
+  "calibration_completed": true,
+  "face_detected_frames": 3207,
+  "face_detection_rate_percent": 97.69,
+  "face_absence_segments": [
+    {
+      "start_seconds": 4.84,
+      "end_seconds": 5.2,
+      "duration_seconds": 0.36
+    },
+    {
+      "start_seconds": 7.04,
+      "end_seconds": 7.24,
+      "duration_seconds": 0.2
+    },
+    {
+      "start_seconds": 7.24,
+      "end_seconds": 7.56,
+      "duration_seconds": 0.32
+    },
+    {
+      "start_seconds": 7.56,
+      "end_seconds": 7.68,
+      "duration_seconds": 0.12
+    },
+    {
+      "start_seconds": 7.72,
+      "end_seconds": 7.88,
+      "duration_seconds": 0.16
+    },
+    {
+      "start_seconds": 8.16,
+      "end_seconds": 8.52,
+      "duration_seconds": 0.36
+    },
+    {
+      "start_seconds": 61.16,
+      "end_seconds": 61.52,
+      "duration_seconds": 0.36
+    },
+    {
+      "start_seconds": 63.76,
+      "end_seconds": 63.88,
+      "duration_seconds": 0.12
+    },
+    {
+      "start_seconds": 63.92,
+      "end_seconds": 64.0,
+      "duration_seconds": 0.08
+    },
+    {
+      "start_seconds": 64.44,
+      "end_seconds": 64.56,
+      "duration_seconds": 0.12
+    },
+    {
+      "start_seconds": 64.68,
+      "end_seconds": 65.04,
+      "duration_seconds": 0.36
+    },
+    {
+      "start_seconds": 110.64,
+      "end_seconds": 111.0,
+      "duration_seconds": 0.36
+    },
+    {
+      "start_seconds": 112.64,
+      "end_seconds": 112.76,
+      "duration_seconds": 0.12
+    },
+    {
+      "start_seconds": 112.8,
+      "end_seconds": 112.92,
+      "duration_seconds": 0.12
+    },
+    {
+      "start_seconds": 112.92,
+      "end_seconds": 113.0,
+      "duration_seconds": 0.08
+    },
+    {
+      "start_seconds": 113.72,
+      "end_seconds": 113.84,
+      "duration_seconds": 0.12
+    },
+    {
+      "start_seconds": 114.04,
+      "end_seconds": 114.4,
+      "duration_seconds": 0.36
+    }
+  ],
+  "longest_face_absence_seconds": 0.36,
+  "gesture_counts": {
+    "NOD": 3,
+    "SHAKE": 1,
+    "TILT_LEFT": 2,
+    "TILT_RIGHT": 1
+  },
+  "gesture_events": [
+    {
+      "gesture": "TILT_LEFT",
+      "frame": 89,
+      "time_seconds": 3.56,
+      "evidence": {
+        "roll": -0.3059,
+        "stable_frames": 4
+      },
+      "section": "left_tilt_select_shortest",
+      "source_time_seconds": 3.56
+    },
+    {
+      "gesture": "NOD",
+      "frame": 174,
+      "time_seconds": 6.96,
+      "evidence": {
+        "pitch_peak_abs": 0.0888,
+        "stable_frames": 4
+      },
+      "section": "nod_confirm_first_route",
+      "source_time_seconds": 15.54
+    },
+    {
+      "gesture": "TILT_LEFT",
+      "frame": 1499,
+      "time_seconds": 59.96,
+      "evidence": {
+        "roll": -0.3084,
+        "stable_frames": 4
+      },
+      "section": "left_tilt_select_shortest_to_c",
+      "source_time_seconds": 7.36
+    },
+    {
+      "gesture": "NOD",
+      "frame": 1590,
+      "time_seconds": 63.6,
+      "evidence": {
+        "pitch_peak_abs": 0.0879,
+        "stable_frames": 4
+      },
+      "section": "nod_confirm_second_route",
+      "source_time_seconds": 40.98
+    },
+    {
+      "gesture": "TILT_RIGHT",
+      "frame": 2737,
+      "time_seconds": 109.48,
+      "evidence": {
+        "roll": 0.327,
+        "stable_frames": 4
+      },
+      "section": "right_tilt_select_alternative_to_b",
+      "source_time_seconds": 10.38
+    },
+    {
+      "gesture": "NOD",
+      "frame": 2816,
+      "time_seconds": 112.64,
+      "evidence": {
+        "pitch_peak_abs": 0.1008,
+        "stable_frames": 4
+      },
+      "section": "nod_confirm_third_route",
+      "source_time_seconds": 59.42
+    },
+    {
+      "gesture": "SHAKE",
+      "frame": 3255,
+      "time_seconds": 130.2,
+      "evidence": {
+        "yaw_span": 0.1011,
+        "yaw_min": -0.0149,
+        "yaw_max": 0.0862
+      },
+      "section": "shake_emergency_stop",
+      "source_time_seconds": 45.1
+    }
+  ],
+  "uses_production_classifier": true,
+  "replayed_at_camera_timing": false,
+  "uses_recorded_frame_timestamps": true,
+  "retained_media_or_landmarks": false,
+  "source_video": "F:\\Head gesture thesis\\tilt_gesture.mp4",
+  "source_video_packaged": false,
+  "subject_consent_confirmed_by_user": true,
+  "expected_sequence": [
+    "TILT_LEFT",
+    "NOD",
+    "TILT_LEFT",
+    "NOD",
+    "TILT_RIGHT",
+    "NOD",
+    "SHAKE"
+  ],
+  "detected_sequence": [
+    "TILT_LEFT",
+    "NOD",
+    "TILT_LEFT",
+    "NOD",
+    "TILT_RIGHT",
+    "NOD",
+    "SHAKE"
+  ],
+  "sequence_verified": true,
+  "sections": [
+    {
+      "name": "neutral_calibration",
+      "role": "calibration",
+      "source_start": 0.0,
+      "source_end": 2.7,
+      "output_start": 0.0,
+      "output_end": 2.7
+    },
+    {
+      "name": "left_tilt_select_shortest",
+      "role": "TILT_LEFT",
+      "source_start": 2.7,
+      "source_end": 4.8,
+      "output_start": 2.7,
+      "output_end": 4.8
+    },
+    {
+      "name": "separator_1",
+      "role": "face_loss_reset",
+      "duration": 0.32,
+      "output_start": 4.8,
+      "output_end": 5.12
+    },
+    {
+      "name": "neutral_rearm_1",
+      "role": "neutral_rearm",
+      "source_start": 1.7,
+      "source_end": 2.5,
+      "output_start": 5.12,
+      "output_end": 5.92
+    },
+    {
+      "name": "nod_confirm_first_route",
+      "role": "NOD",
+      "source_start": 14.5,
+      "source_end": 16.7,
+      "output_start": 5.92,
+      "output_end": 8.12
+    },
+    {
+      "name": "separator_2",
+      "role": "face_loss_reset",
+      "duration": 0.32,
+      "output_start": 8.12,
+      "output_end": 8.44
+    },
+    {
+      "name": "neutral_rearm_2",
+      "role": "neutral_rearm",
+      "source_start": 1.7,
+      "source_end": 2.5,
+      "output_start": 8.44,
+      "output_end": 9.24
+    },
+    {
+      "name": "wait_for_a_arrival",
+      "role": "neutral_wait",
+      "freeze_source": 2.0,
+      "duration": 49.86,
+      "output_start": 9.24,
+      "output_end": 59.1
+    },
+    {
+      "name": "left_tilt_select_shortest_to_c",
+      "role": "TILT_LEFT",
+      "source_start": 6.5,
+      "source_end": 8.5,
+      "output_start": 59.1,
+      "output_end": 61.1
+    },
+    {
+      "name": "separator_3",
+      "role": "face_loss_reset",
+      "duration": 0.32,
+      "output_start": 61.1,
+      "output_end": 61.42
+    },
+    {
+      "name": "neutral_rearm_3",
+      "role": "neutral_rearm",
+      "source_start": 1.7,
+      "source_end": 2.5,
+      "output_start": 61.42,
+      "output_end": 62.22
+    },
+    {
+      "name": "nod_confirm_second_route",
+      "role": "NOD",
+      "source_start": 39.6,
+      "source_end": 42.0,
+      "output_start": 62.22,
+      "output_end": 64.62
+    },
+    {
+      "name": "separator_4",
+      "role": "face_loss_reset",
+      "duration": 0.32,
+      "output_start": 64.62,
+      "output_end": 64.94
+    },
+    {
+      "name": "neutral_rearm_4",
+      "role": "neutral_rearm",
+      "source_start": 1.7,
+      "source_end": 2.5,
+      "output_start": 64.94,
+      "output_end": 65.74
+    },
+    {
+      "name": "wait_for_c_arrival",
+      "role": "neutral_wait",
+      "freeze_source": 2.0,
+      "duration": 42.76,
+      "output_start": 65.74,
+      "output_end": 108.5
+    },
+    {
+      "name": "right_tilt_select_alternative_to_b",
+      "role": "TILT_RIGHT",
+      "source_start": 9.4,
+      "source_end": 11.5,
+      "output_start": 108.5,
+      "output_end": 110.6
+    },
+    {
+      "name": "separator_5",
+      "role": "face_loss_reset",
+      "duration": 0.32,
+      "output_start": 110.6,
+      "output_end": 110.92
+    },
+    {
+      "name": "neutral_rearm_5",
+      "role": "neutral_rearm",
+      "source_start": 1.7,
+      "source_end": 2.5,
+      "output_start": 110.92,
+      "output_end": 111.72
+    },
+    {
+      "name": "nod_confirm_third_route",
+      "role": "NOD",
+      "source_start": 58.5,
+      "source_end": 60.8,
+      "output_start": 111.72,
+      "output_end": 114.02
+    },
+    {
+      "name": "separator_6",
+      "role": "face_loss_reset",
+      "duration": 0.32,
+      "output_start": 114.02,
+      "output_end": 114.34
+    },
+    {
+      "name": "neutral_rearm_6",
+      "role": "neutral_rearm",
+      "source_start": 1.7,
+      "source_end": 2.5,
+      "output_start": 114.34,
+      "output_end": 115.14
+    },
+    {
+      "name": "wait_before_interrupt",
+      "role": "neutral_wait",
+      "freeze_source": 2.0,
+      "duration": 13.76,
+      "output_start": 115.14,
+      "output_end": 128.9
+    },
+    {
+      "name": "shake_emergency_stop",
+      "role": "SHAKE",
+      "source_start": 43.8,
+      "source_end": 46.2,
+      "output_start": 128.9,
+      "output_end": 131.3
+    }
+  ],
+  "controller_replay_ready": true,
+  "microphone_audio_used": false
+}

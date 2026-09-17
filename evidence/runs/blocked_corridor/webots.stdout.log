@@ -1,0 +1,8 @@
+INFO: epuck_waypoint_controller: Starting controller: python3 -u epuck_waypoint_controller.py
+[status] STATE: IDLE | waiting for START
+[status] STATE: READY | command accepted | start A: pending_confirmation
+[status] STATE: TO_PICKUP | gesture | NOD: route_started
+[status] STATE: TO_PICKUP | route started | S_A_SHORT → A
+[status] STATE: TO_PICKUP | navigating | S_A_SHORT → A
+[status] STATE: STOPPED | safety stop | obstacle detected
+INFO: 'epuck_waypoint_controller' controller exited successfully.

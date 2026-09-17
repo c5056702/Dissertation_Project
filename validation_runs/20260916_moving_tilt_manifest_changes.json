@@ -1,0 +1,42 @@
+[
+  {
+    "path": "CODE_EXPLANATION.md",
+    "old_sha256": "5f742ace0c51340ee3136a7f1a6d780e4463d0d74894ff2502645621214ee0c2",
+    "new_sha256": "919868741e983e452a686c0f105c15d5320c7696067982ed6330061705e1d992"
+  },
+  {
+    "path": "controllers/epuck_waypoint_controller/epuck_waypoint_controller.py",
+    "old_sha256": "d1f479c219181e8ba94597aa6cd24255f19f51ada25e8966cf89caa50134750d",
+    "new_sha256": "b232f385aeb4afa16c173dda0be5d5d3f477e9d1778c37516ef2d596cd15aa03"
+  },
+  {
+    "path": "controllers/epuck_waypoint_controller/input_adapters.py",
+    "old_sha256": "b497aa641467eb355bbe1683fd1d8ee114bac7979036401d84c89a32da960bb0",
+    "new_sha256": "665b91c676b2fecf7b409695e2203d0b133b6a8f562364a5bd84fd5d21f854c3"
+  },
+  {
+    "path": "controllers/epuck_waypoint_controller/live_dashboard.py",
+    "old_sha256": "ff0067de804745093c94b05e83f66df0c3daa945e418881b456eb57dddf09768",
+    "new_sha256": "3498ee2f5681dadbb5c3325592852f0a8bca050d80f713cc7e3ff0bcec3b2f2b"
+  },
+  {
+    "path": "instructions.md",
+    "old_sha256": "b2e2d99343473edb5f4ef041747241b09cdcd75068ad8a248f23b167cfd05546",
+    "new_sha256": "9f7cdaddfbc30dee50d8245a7d76d1ed00162b6565504fe0c07dcee9ca46e711"
+  },
+  {
+    "path": "tests/test_live_dashboard.py",
+    "old_sha256": "99f25f0e56286167c41d3d5b559971aa697520cfb54270b32544a13018e2f201",
+    "new_sha256": "42c663fc8f1ac48b7aec0b921bc7fcdc3bc366888f07dfa771fa5519f08d64f9"
+  },
+  {
+    "path": "tests/test_live_override_controller.py",
+    "old_sha256": "e7d63f62cf009487924e2b734c87ff05a285816e473ae10847b5a879d7c4f5ec",
+    "new_sha256": "5ccf885e18b43ae618e406187914b1c07360cc00d1e03806f77b7a127b857818"
+  },
+  {
+    "path": "tests/test_tilt_gate_feedback.py",
+    "old_sha256": null,
+    "new_sha256": "a20c31f77ee4c4561778e1a7bdc3bc3ed08156c221003fbc3d541427384bd66b"
+  }
+]

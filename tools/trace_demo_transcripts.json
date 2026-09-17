@@ -1,0 +1,12 @@
+{
+  "description": "Timed text fixtures for the consented tilt_gesture.mp4 dashboard demonstration; no microphone audio is used.",
+  "dashboard_reset_at_seconds": 47.0,
+  "transcripts": [
+    {"at_seconds": 2.0, "transcript": "start a", "confidence": 0.96},
+    {"at_seconds": 24.0, "transcript": "start a", "confidence": 0.52},
+    {"at_seconds": 34.0, "transcript": "start", "confidence": 0.98},
+    {"at_seconds": 38.0, "transcript": "go to s", "confidence": 0.94},
+    {"at_seconds": 53.5, "transcript": "start", "confidence": 0.98},
+    {"at_seconds": 57.0, "transcript": "go to a", "confidence": 0.95}
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "goto_a_shortest",
+  "expected_terminal": "destination_reached",
+  "expected_final_position": "A",
+  "actions": [
+    {
+      "command": "start"
+    },
+    {
+      "command": "go to A",
+      "gesture": "NOD"
+    }
+  ]
+}

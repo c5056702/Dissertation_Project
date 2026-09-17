@@ -1,0 +1,53 @@
+{
+  "name": "demo_showcase",
+  "expected_terminal": "destination_reached",
+  "expected_final_position": "S",
+  "actions": [
+    {
+      "command": "start"
+    },
+    {
+      "command": "go to A",
+      "route_gesture": "TILT_RIGHT",
+      "gesture": "NOD"
+    },
+    {
+      "command": "turn right",
+      "wait_for_route": "GRAPH_S_A",
+      "minimum_waypoint_index": "1"
+    },
+    {
+      "command": "continue"
+    },
+    {
+      "command": "go to B",
+      "gesture": "NOD"
+    },
+    {
+      "command": "alternative route",
+      "gesture": "NOD",
+      "wait_for_route": "GRAPH_A_B",
+      "minimum_waypoint_index": "2"
+    },
+    {
+      "command": "go to C",
+      "gesture": "NOD"
+    },
+    {
+      "command": "go to S",
+      "gesture": "NOD",
+      "wait_for_route": "GRAPH_B_C",
+      "minimum_waypoint_index": "2"
+    },
+    {
+      "command": "go to A",
+      "gesture": "NOD"
+    },
+    {
+      "command": "reverse",
+      "gesture": "NOD",
+      "wait_for_route": "GRAPH_S_A",
+      "minimum_waypoint_index": "2"
+    }
+  ]
+}

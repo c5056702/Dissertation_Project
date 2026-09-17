@@ -1,0 +1,108 @@
+{
+  "created_at": "2026-08-20T23:15:50",
+  "scenario_selection": "safety",
+  "repeat": 1,
+  "visible": false,
+  "record_demo": false,
+  "passed": 16,
+  "total": 16,
+  "postflight_tests": true,
+  "records": [
+    {
+      "scenario": "voice_stop",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231307_414692_voice_stop_01"
+    },
+    {
+      "scenario": "head_shake",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231322_697466_head_shake_01"
+    },
+    {
+      "scenario": "keyboard_stop",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231332_300438_keyboard_stop_01"
+    },
+    {
+      "scenario": "obstacle_stop",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231341_909648_obstacle_stop_01"
+    },
+    {
+      "scenario": "localisation_loss",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231351_167696_localisation_loss_01"
+    },
+    {
+      "scenario": "invalid_command",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231404_382370_invalid_command_01"
+    },
+    {
+      "scenario": "conflicting_stop",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231413_379934_conflicting_stop_01"
+    },
+    {
+      "scenario": "blocked_corridor",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231422_592141_blocked_corridor_01"
+    },
+    {
+      "scenario": "face_absent",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231432_049205_face_absent_01"
+    },
+    {
+      "scenario": "controller_failure",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231441_496393_controller_failure_01"
+    },
+    {
+      "scenario": "stop_on_s_a",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231450_763272_stop_on_s_a_01"
+    },
+    {
+      "scenario": "stop_on_a_b",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231459_961600_stop_on_a_b_01"
+    },
+    {
+      "scenario": "stop_on_a_c",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231509_767862_stop_on_a_c_01"
+    },
+    {
+      "scenario": "stop_on_b_c",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231519_425388_stop_on_b_c_01"
+    },
+    {
+      "scenario": "stop_on_c_a",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231529_681900_stop_on_c_a_01"
+    },
+    {
+      "scenario": "stop_on_a_s",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260820_231539_690647_stop_on_a_s_01"
+    }
+  ]
+}

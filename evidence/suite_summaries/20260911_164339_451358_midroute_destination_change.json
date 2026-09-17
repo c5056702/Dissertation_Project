@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-09-11T16:43:39",
+  "scenario_selection": "midroute_destination_change",
+  "repeat": 3,
+  "visible": false,
+  "record_demo": false,
+  "passed": 3,
+  "total": 3,
+  "postflight_tests": true,
+  "records": [
+    {
+      "scenario": "midroute_destination_change",
+      "run": 1,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260911_164315_724896_midroute_destination_change_01"
+    },
+    {
+      "scenario": "midroute_destination_change",
+      "run": 2,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260911_164325_368969_midroute_destination_change_02"
+    },
+    {
+      "scenario": "midroute_destination_change",
+      "run": 3,
+      "passed": true,
+      "run_dir": "/project/validation_runs/20260911_164332_358437_midroute_destination_change_03"
+    }
+  ]
+}

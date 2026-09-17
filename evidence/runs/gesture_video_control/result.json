@@ -1,0 +1,1762 @@
+{
+  "actual_path_length": 10.955,
+  "events": [
+    {
+      "event": "live_input_supervisor_started",
+      "gesture_source": "classified_gesture_video_replay",
+      "session_id": "b529df989114",
+      "status": {
+        "camera_error": null,
+        "camera_ready": true,
+        "camera_reconnects": 1,
+        "face_present": true,
+        "gesture_calibrated": true,
+        "ready": true,
+        "voice_error": null,
+        "voice_ready": true,
+        "voice_reconnects": 1
+      },
+      "time": 1787539538.846,
+      "voice_source": "transcript_replay"
+    },
+    {
+      "event": "controller_started",
+      "scenario": "live",
+      "session_id": "b529df989114",
+      "state": "IDLE",
+      "time": 1787539538.846
+    },
+    {
+      "event": "viewpoint_configured",
+      "orientation": [
+        0.0,
+        1.0,
+        0.0,
+        1.570796
+      ],
+      "position": [
+        0.0,
+        0.0,
+        7.2
+      ],
+      "session_id": "b529df989114",
+      "time": 1787539538.857
+    },
+    {
+      "acceleration": 4,
+      "event": "movie_recording_started",
+      "path": "/project/validation_runs/20260824_024532_896682_gesture_video_control/gesture_control_webots_raw.mp4",
+      "session_id": "b529df989114",
+      "time": 1787539539.1
+    },
+    {
+      "camera_error": null,
+      "camera_ready": true,
+      "camera_reconnects": 1,
+      "event": "live_input_status",
+      "face_present": true,
+      "gesture_calibrated": true,
+      "ready": true,
+      "session_id": "b529df989114",
+      "time": 1787539540.298,
+      "voice_error": null,
+      "voice_ready": true,
+      "voice_reconnects": 1
+    },
+    {
+      "accepted": true,
+      "command": "start A",
+      "event": "command_recognised",
+      "session_id": "b529df989114",
+      "state": "READY",
+      "status": "pending_confirmation",
+      "time": 1787539543.214
+    },
+    {
+      "event": "gesture_recognised",
+      "gesture": "TILT_LEFT",
+      "gesture_scheduled_seconds": "3.56",
+      "gesture_section": "left_tilt_select_shortest",
+      "gesture_source": "classified_gesture_video_replay",
+      "gesture_source_time_seconds": "3.56",
+      "outcome": "route_short_selected",
+      "session_id": "b529df989114",
+      "state": "READY",
+      "time": 1787539545.666
+    },
+    {
+      "event": "gesture_recognised",
+      "gesture": "NOD",
+      "gesture_scheduled_seconds": "6.96",
+      "gesture_section": "nod_confirm_first_route",
+      "gesture_source": "classified_gesture_video_replay",
+      "gesture_source_time_seconds": "15.54",
+      "outcome": "route_started",
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539550.823
+    },
+    {
+      "alternative": false,
+      "command": "start A",
+      "destination": "A",
+      "event": "command_confirmed",
+      "origin": "S",
+      "route": "S_A_SHORT",
+      "route_length": 4.802,
+      "route_segments": [
+        "S_A_SHORT"
+      ],
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539550.825
+    },
+    {
+      "event": "route_started",
+      "route": "S_A_SHORT",
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539550.832
+    },
+    {
+      "details": {
+        "compass": [
+          0.5066637925794045,
+          0.8621437242647273,
+          0.0
+        ],
+        "desired_heading": 0.5927473010599581,
+        "distance": 1.4828215295078466,
+        "heading": 0.5313107054602844,
+        "heading_error": 0.06143659559967363,
+        "position": [
+          -2.4298656019906573,
+          1.1916339641123932
+        ],
+        "target": [
+          -1.2,
+          2.02
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "S_A_SHORT",
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539555.7
+    },
+    {
+      "details": {
+        "compass": [
+          0.5610754053044517,
+          0.827764694561471,
+          0.0
+        ],
+        "desired_heading": 0.5958234800950989,
+        "distance": 1.101725639499251,
+        "heading": 0.5956843967254413,
+        "heading_error": 0.00013908336965773316,
+        "position": [
+          -2.111883604104011,
+          1.4017220064596245
+        ],
+        "target": [
+          -1.2,
+          2.02
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "S_A_SHORT",
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539560.573
+    },
+    {
+      "details": {
+        "compass": [
+          0.5611984394177252,
+          0.8276812862419386,
+          0.0
+        ],
+        "desired_heading": 0.595833437300767,
+        "distance": 0.7177321900905432,
+        "heading": 0.5958330383778705,
+        "heading_error": 3.989228964940139e-07,
+        "position": [
+          -1.7940533415891098,
+          1.6172095780198092
+        ],
+        "target": [
+          -1.2,
+          2.02
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "S_A_SHORT",
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539565.319
+    },
+    {
+      "details": {
+        "compass": [
+          0.5611988102939784,
+          0.8276810347740388,
+          0.0
+        ],
+        "desired_heading": 0.5958334919286111,
+        "distance": 0.3337322287122041,
+        "heading": 0.5958334864685977,
+        "heading_error": 5.460013330349511e-09,
+        "position": [
+          -1.4762238353753565,
+          1.8327098687817673
+        ],
+        "target": [
+          -1.2,
+          2.02
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "S_A_SHORT",
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539570.113
+    },
+    {
+      "details": {
+        "index": 1,
+        "position": [
+          -1.2728129542869298,
+          1.970630086824149
+        ]
+      },
+      "event": "waypoint_reached",
+      "position": [
+        -1.2728129542869298,
+        1.970630086824149
+      ],
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539573.163
+    },
+    {
+      "details": {
+        "compass": [
+          0.09394640828001179,
+          0.9955772558527466,
+          0.0
+        ],
+        "desired_heading": -0.005111567015084183,
+        "distance": 2.2686481411233146,
+        "heading": 0.09408515407505158,
+        "heading_error": -0.09919672109013566,
+        "position": [
+          -1.1686185034354175,
+          2.0115962965086114
+        ],
+        "target": [
+          1.1,
+          2.0
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "S_A_SHORT",
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539574.849
+    },
+    {
+      "details": {
+        "compass": [
+          -0.008010246727317524,
+          0.999967917459039,
+          0.0
+        ],
+        "desired_heading": -0.008206225636957387,
+        "distance": 1.8893252747612534,
+        "heading": -0.008010332391439778,
+        "heading_error": -0.0001958932455177198,
+        "position": [
+          -0.7892616595154256,
+          2.0155040554922197
+        ],
+        "target": [
+          1.1,
+          2.0
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "S_A_SHORT",
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539579.727
+    },
+    {
+      "details": {
+        "compass": [
+          -0.00821338867025208,
+          0.9999662695544044,
+          0.0
+        ],
+        "desired_heading": -0.008213925332202977,
+        "distance": 1.505334219916702,
+        "heading": -0.008213481018584545,
+        "heading_error": -4.443136183418517e-07,
+        "position": [
+          -0.40528343882909806,
+          2.012364563844739
+        ],
+        "target": [
+          1.1,
+          2.0
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "S_A_SHORT",
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539584.541
+    },
+    {
+      "details": {
+        "compass": [
+          -0.008213707921559787,
+          0.9999662669321298,
+          0.0
+        ],
+        "desired_heading": -0.00821396297335528,
+        "distance": 1.1213342578607064,
+        "heading": -0.008213800280661765,
+        "heading_error": -1.626926935394124e-07,
+        "position": [
+          -0.02129643031761541,
+          2.0092104945032436
+        ],
+        "target": [
+          1.1,
+          2.0
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "S_A_SHORT",
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539589.42
+    },
+    {
+      "details": {
+        "compass": [
+          -0.0082138714896006,
+          0.9999662655885709,
+          0.0
+        ],
+        "desired_heading": -0.008213999917929805,
+        "distance": 0.737334287458236,
+        "heading": -0.008213963854220463,
+        "heading_error": -3.606370935216319e-08,
+        "position": [
+          0.3626905862983936,
+          2.0060563956721706
+        ],
+        "target": [
+          1.1,
+          2.0
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "S_A_SHORT",
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539594.276
+    },
+    {
+      "details": {
+        "compass": [
+          -0.008213835841253393,
+          0.999966265881391,
+          0.0
+        ],
+        "desired_heading": -0.008214060503769927,
+        "distance": 0.3533343105207606,
+        "heading": -0.008213928204670928,
+        "heading_error": -1.3229909878731405e-07,
+        "position": [
+          0.7466776092847447,
+          2.002902276767934
+        ],
+        "target": [
+          1.1,
+          2.0
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "S_A_SHORT",
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539599.135
+    },
+    {
+      "details": {
+        "index": 2,
+        "position": [
+          1.0116286497503073,
+          2.0007259164732454
+        ]
+      },
+      "event": "waypoint_reached",
+      "position": [
+        1.0116286497503073,
+        2.0007259164732454
+      ],
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539602.467
+    },
+    {
+      "details": {
+        "compass": [
+          -0.03737202647215605,
+          0.9993014218129406,
+          0.0
+        ],
+        "desired_heading": -0.04270991828726904,
+        "distance": 1.121674837779422,
+        "heading": -0.037380731332114614,
+        "heading_error": -0.005329186955154608,
+        "position": [
+          1.1293480510697427,
+          1.997892077281199
+        ],
+        "target": [
+          2.25,
+          1.95
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "S_A_SHORT",
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539603.926
+    },
+    {
+      "details": {
+        "compass": [
+          -0.043055293621820784,
+          0.9990726908944808,
+          0.0
+        ],
+        "desired_heading": -0.04308256796094119,
+        "distance": 0.7379253128073848,
+        "heading": -0.04306860708216753,
+        "heading_error": -1.3960878773477958e-05,
+        "position": [
+          1.5127594156855515,
+          1.9817818835434173
+        ],
+        "target": [
+          2.25,
+          1.95
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "S_A_SHORT",
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539609.128
+    },
+    {
+      "details": {
+        "compass": [
+          -0.043070790355054914,
+          0.999072022938382,
+          0.0
+        ],
+        "desired_heading": -0.0430842058937567,
+        "distance": 0.3539260237861716,
+        "heading": -0.04308411820418634,
+        "heading_error": -8.768957027172064e-08,
+        "position": [
+          1.8964024127821417,
+          1.9652439045785128
+        ],
+        "target": [
+          2.25,
+          1.95
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "S_A_SHORT",
+      "session_id": "b529df989114",
+      "state": "TO_PICKUP",
+      "time": 1787539615.073
+    },
+    {
+      "event": "waypoint_reached",
+      "position": [
+        2.161116504508645,
+        1.9538318492623183
+      ],
+      "session_id": "b529df989114",
+      "state": "AT_PICKUP",
+      "time": 1787539619.404,
+      "transition": "pickup_waypoint_reached"
+    },
+    {
+      "accepted": true,
+      "command": "go to C",
+      "event": "command_recognised",
+      "session_id": "b529df989114",
+      "state": "AT_PICKUP",
+      "status": "pending_confirmation",
+      "time": 1787539631.441
+    },
+    {
+      "event": "gesture_recognised",
+      "gesture": "TILT_LEFT",
+      "gesture_scheduled_seconds": "59.96",
+      "gesture_section": "left_tilt_select_shortest_to_c",
+      "gesture_source": "classified_gesture_video_replay",
+      "gesture_source_time_seconds": "7.36",
+      "outcome": "route_short_selected",
+      "session_id": "b529df989114",
+      "state": "AT_PICKUP",
+      "time": 1787539634.268
+    },
+    {
+      "event": "gesture_recognised",
+      "gesture": "NOD",
+      "gesture_scheduled_seconds": "63.6",
+      "gesture_section": "nod_confirm_second_route",
+      "gesture_source": "classified_gesture_video_replay",
+      "gesture_source_time_seconds": "40.98",
+      "outcome": "route_started",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539639.828
+    },
+    {
+      "alternative": false,
+      "command": "go to C",
+      "destination": "C",
+      "event": "command_confirmed",
+      "origin": "A",
+      "route": "GRAPH_A_C_SHORTEST",
+      "route_length": 4.055,
+      "route_segments": [
+        "A_C"
+      ],
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539639.83
+    },
+    {
+      "event": "route_started",
+      "route": "GRAPH_A_C_SHORTEST",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539639.837
+    },
+    {
+      "details": {
+        "index": 1,
+        "position": [
+          2.195184053005443,
+          1.9523631644736132
+        ]
+      },
+      "event": "waypoint_reached",
+      "position": [
+        2.195184053005443,
+        1.9523631644736132
+      ],
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539639.845
+    },
+    {
+      "details": {
+        "compass": [
+          -0.3959983380624666,
+          0.9182512271986163,
+          0.0
+        ],
+        "desired_heading": -1.5576758528908001,
+        "distance": 4.005575116569527,
+        "heading": -0.4071548132046745,
+        "heading_error": -1.1505210396861256,
+        "position": [
+          2.1974464640632516,
+          1.9552303479751987
+        ],
+        "target": [
+          2.25,
+          -2.05
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_A_C_SHORTEST",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539640.59
+    },
+    {
+      "details": {
+        "compass": [
+          -0.99999417154392,
+          0.003414217068244789,
+          0.0
+        ],
+        "desired_heading": -1.5694620637277163,
+        "distance": 3.6888338419579685,
+        "heading": -1.5673821030934318,
+        "heading_error": -0.0020799606342842836,
+        "position": [
+          2.2450781267040787,
+          1.6388305584206013
+        ],
+        "target": [
+          2.25,
+          -2.05
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_A_C_SHORTEST",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539645.685
+    },
+    {
+      "details": {
+        "compass": [
+          -0.9999991578928525,
+          0.0012977725478640326,
+          0.0
+        ],
+        "desired_heading": -1.5695023637149847,
+        "distance": 3.304926914401162,
+        "heading": -1.5694985538827448,
+        "heading_error": -3.809832239909383e-06,
+        "position": [
+          2.245723547784331,
+          1.2549241476151363
+        ],
+        "target": [
+          2.25,
+          -2.05
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_A_C_SHORTEST",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539650.708
+    },
+    {
+      "details": {
+        "compass": [
+          -0.9999991626763833,
+          0.0012940813468290185,
+          0.0
+        ],
+        "desired_heading": -1.5695024534051074,
+        "distance": 2.9209271295322714,
+        "heading": -1.5695022450868792,
+        "heading_error": -2.083182284451368e-07,
+        "position": [
+          2.2462206911680807,
+          0.8709246845583655
+        ],
+        "target": [
+          2.25,
+          -2.05
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_A_C_SHORTEST",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539655.666
+    },
+    {
+      "details": {
+        "compass": [
+          -0.9999991627667708,
+          0.0012940114981606987,
+          0.0
+        ],
+        "desired_heading": -1.5695024745835946,
+        "distance": 2.5369272003108545,
+        "heading": -1.569502314935606,
+        "heading_error": -1.5964798860679252e-07,
+        "position": [
+          2.246717592047787,
+          0.48692507683516484
+        ],
+        "target": [
+          2.25,
+          -2.05
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_A_C_SHORTEST",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539660.624
+    },
+    {
+      "details": {
+        "compass": [
+          -0.9999991628712837,
+          0.00129393072932564,
+          0.0
+        ],
+        "desired_heading": -1.5695025001603389,
+        "distance": 2.152927271447647,
+        "heading": -1.5695023957045087,
+        "heading_error": -1.0445583020768368e-07,
+        "position": [
+          2.247214486131088,
+          0.10292546946137851
+        ],
+        "target": [
+          2.25,
+          -2.05
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_A_C_SHORTEST",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539665.523
+    },
+    {
+      "details": {
+        "compass": [
+          -0.9999991629034348,
+          0.001293905881313476,
+          0.0
+        ],
+        "desired_heading": -1.5695025310414923,
+        "distance": 1.7689273407500983,
+        "heading": -1.5695024205525416,
+        "heading_error": -1.1048895043330731e-07,
+        "position": [
+          2.2477113699569493,
+          -0.2810741397600235
+        ],
+        "target": [
+          2.25,
+          -2.05
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_A_C_SHORTEST",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539670.374
+    },
+    {
+      "details": {
+        "compass": [
+          -0.9999991628825641,
+          0.0012939220112429103,
+          0.0
+        ],
+        "desired_heading": -1.5695025682987762,
+        "distance": 1.3849274087083718,
+        "heading": -1.569502404422599,
+        "heading_error": -1.6387617751689731e-07,
+        "position": [
+          2.2482082388983184,
+          -0.6650737503448638
+        ],
+        "target": [
+          2.25,
+          -2.05
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_A_C_SHORTEST",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539675.202
+    },
+    {
+      "details": {
+        "compass": [
+          -0.9999991628796245,
+          0.001293924283016443,
+          0.0
+        ],
+        "desired_heading": -1.569502615664547,
+        "distance": 1.0009274771212264,
+        "heading": -1.5695024021508233,
+        "heading_error": -2.1351372403444202e-07,
+        "position": [
+          2.2487050893433884,
+          -1.0490733604990548
+        ],
+        "target": [
+          2.25,
+          -2.05
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_A_C_SHORTEST",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539680.091
+    },
+    {
+      "details": {
+        "compass": [
+          -0.9999991630295355,
+          0.0012938084203489317,
+          0.0
+        ],
+        "desired_heading": -1.569502686930604,
+        "distance": 0.6169275494091799,
+        "heading": -1.569502518013588,
+        "heading_error": -1.6891701593024777e-07,
+        "position": [
+          2.2492019181513028,
+          -1.433072966806139
+        ],
+        "target": [
+          2.25,
+          -2.05
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_A_C_SHORTEST",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539684.86
+    },
+    {
+      "details": {
+        "compass": [
+          -0.9999991633146033,
+          0.0012935880694990196,
+          0.0
+        ],
+        "desired_heading": -1.5695028440607415,
+        "distance": 0.23292762512460716,
+        "heading": -1.5695027383646223,
+        "heading_error": -1.0569611941235735e-07,
+        "position": [
+          2.2496987122226075,
+          -1.8170725697306889
+        ],
+        "target": [
+          2.25,
+          -2.05
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_A_C_SHORTEST",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539689.772
+    },
+    {
+      "event": "waypoint_reached",
+      "position": [
+        2.249887472590953,
+        -1.9629924208005691
+      ],
+      "session_id": "b529df989114",
+      "state": "ARRIVED",
+      "time": 1787539691.695,
+      "transition": "destination_reached"
+    },
+    {
+      "event": "destination_reached",
+      "position": [
+        2.249887472590953,
+        -1.9629924208005691
+      ],
+      "session_id": "b529df989114",
+      "state": "ARRIVED",
+      "time": 1787539691.697
+    },
+    {
+      "accepted": true,
+      "command": "go to B",
+      "event": "command_recognised",
+      "session_id": "b529df989114",
+      "state": "ARRIVED",
+      "status": "pending_confirmation",
+      "time": 1787539708.11
+    },
+    {
+      "event": "gesture_recognised",
+      "gesture": "TILT_RIGHT",
+      "gesture_scheduled_seconds": "109.48",
+      "gesture_section": "right_tilt_select_alternative_to_b",
+      "gesture_source": "classified_gesture_video_replay",
+      "gesture_source_time_seconds": "10.38",
+      "outcome": "route_alternative_selected",
+      "session_id": "b529df989114",
+      "state": "ARRIVED",
+      "time": 1787539710.448
+    },
+    {
+      "event": "gesture_recognised",
+      "gesture": "NOD",
+      "gesture_scheduled_seconds": "112.64",
+      "gesture_section": "nod_confirm_third_route",
+      "gesture_source": "classified_gesture_video_replay",
+      "gesture_source_time_seconds": "59.42",
+      "outcome": "route_started",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539714.911
+    },
+    {
+      "alternative": true,
+      "command": "go to B",
+      "destination": "B",
+      "event": "command_confirmed",
+      "origin": "C",
+      "route": "GRAPH_C_B_ALTERNATIVE",
+      "route_length": 11.292,
+      "route_segments": [
+        "A_B",
+        "A_C"
+      ],
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539714.913
+    },
+    {
+      "event": "route_started",
+      "route": "GRAPH_C_B_ALTERNATIVE",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539714.921
+    },
+    {
+      "details": {
+        "index": 1,
+        "position": [
+          2.2499315818348737,
+          -1.9970915766247566
+        ]
+      },
+      "event": "waypoint_reached",
+      "position": [
+        2.2499315818348737,
+        -1.9970915766247566
+      ],
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539714.929
+    },
+    {
+      "details": {
+        "compass": [
+          0.9957391128826955,
+          0.09221506967726611,
+          0.0
+        ],
+        "desired_heading": 1.5823793764299472,
+        "distance": 3.8836239744480094,
+        "heading": 1.4784500608178588,
+        "heading_error": 0.1039293156120884,
+        "position": [
+          2.2949832033669595,
+          -1.9333634501965173
+        ],
+        "target": [
+          2.25,
+          1.95
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_C_B_ALTERNATIVE",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539719.035
+    },
+    {
+      "details": {
+        "compass": [
+          0.9999123457681529,
+          -0.013240120106325708,
+          0.0
+        ],
+        "desired_heading": 1.5842232380778467,
+        "distance": 3.5044701113630246,
+        "heading": 1.584036833765639,
+        "heading_error": 0.00018640431220795506,
+        "position": [
+          2.2970527954543583,
+          -1.554154219762124
+        ],
+        "target": [
+          2.25,
+          1.95
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_C_B_ALTERNATIVE",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539723.898
+    },
+    {
+      "details": {
+        "compass": [
+          0.9999098139225665,
+          -0.013429967287319834,
+          0.0
+        ],
+        "desired_heading": 1.5842270519612855,
+        "distance": 3.120478470908257,
+        "heading": 1.5842266978288047,
+        "heading_error": 3.5413248067328595e-07,
+        "position": [
+          2.2919090287482025,
+          -1.1701970323540973
+        ],
+        "target": [
+          2.25,
+          1.95
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_C_B_ALTERNATIVE",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539728.845
+    },
+    {
+      "details": {
+        "compass": [
+          0.9999098102536841,
+          -0.013430240446167377,
+          0.0
+        ],
+        "desired_heading": 1.5842270756044674,
+        "distance": 2.736478540147173,
+        "heading": 1.5842269710122903,
+        "heading_error": 1.045921771414271e-07,
+        "position": [
+          2.286751850958389,
+          -0.7862317339978969
+        ],
+        "target": [
+          2.25,
+          1.95
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_C_B_ALTERNATIVE",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539733.674
+    },
+    {
+      "details": {
+        "compass": [
+          0.9999098105448029,
+          -0.01343021877172546,
+          0.0
+        ],
+        "desired_heading": 1.5842270988393221,
+        "distance": 2.3524785997139643,
+        "heading": 1.5842269493358927,
+        "heading_error": 1.4950342919206605e-07,
+        "position": [
+          2.2815946539218577,
+          -0.40226642622721065
+        ],
+        "target": [
+          2.25,
+          1.95
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_C_B_ALTERNATIVE",
+      "session_id": "b529df989114",
+      "state": "NAVIGATING",
+      "time": 1787539738.537
+    },
+    {
+      "event": "gesture_recognised",
+      "gesture": "SHAKE",
+      "gesture_scheduled_seconds": "130.2",
+      "gesture_section": "shake_emergency_stop",
+      "gesture_source": "classified_gesture_video_replay",
+      "gesture_source_time_seconds": "45.1",
+      "outcome": "emergency_stop",
+      "session_id": "b529df989114",
+      "state": "STOPPED",
+      "time": 1787539741.902
+    },
+    {
+      "event": "safety_stop",
+      "position": [
+        2.2780361859028186,
+        -0.13733036555793846
+      ],
+      "session_id": "b529df989114",
+      "source": "head_shake",
+      "state": "STOPPED",
+      "time": 1787539741.904
+    },
+    {
+      "event": "movie_recording_stop_requested",
+      "path": "/project/validation_runs/20260824_024532_896682_gesture_video_control/gesture_control_webots_raw.mp4",
+      "session_id": "b529df989114",
+      "time": 1787539744.307
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539744.432
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539744.439
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539744.539
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539744.546
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539744.554
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539744.659
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539744.667
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539744.78
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539744.791
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539744.904
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539744.912
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539745.029
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539745.037
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539745.145
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539745.153
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539745.266
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539745.274
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539745.383
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539745.391
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539745.401
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539745.513
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539745.523
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539745.637
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539745.816
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539745.825
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539745.947
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539745.96
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.088
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.096
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.207
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.217
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.329
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.338
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.346
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.455
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.464
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.474
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.584
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.593
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.706
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.714
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.821
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.828
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.838
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.942
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539746.95
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539747.094
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539747.107
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539747.24
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539747.249
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539747.381
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539747.391
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539747.525
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539747.539
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539747.668
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539747.681
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539747.833
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539747.843
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539747.987
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539747.996
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539748.127
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539748.14
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539748.271
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539748.281
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539748.422
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539748.429
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539748.554
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539748.567
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539748.692
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539748.7
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539748.827
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539748.838
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539748.967
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539748.982
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539749.123
+    },
+    {
+      "event": "gesture_video_replay_completed",
+      "expected_state": "STOPPED",
+      "final_state": "STOPPED",
+      "matched": true,
+      "session_id": "b529df989114",
+      "time": 1787539749.224
+    },
+    {
+      "event": "movie_recording_ready",
+      "path": "/project/validation_runs/20260824_024532_896682_gesture_video_control/gesture_control_webots_raw.mp4",
+      "session_id": "b529df989114",
+      "time": 1787539749.683
+    }
+  ],
+  "final_position": [
+    2.277578225170809,
+    -0.10323425060803414
+  ],
+  "final_state": "STOPPED",
+  "maximum_sensor_peak": 79.08568641590252,
+  "metrics": {
+    "accepted_command_events": 3,
+    "command_acceptance_rate": 1.0,
+    "command_events": 3,
+    "confirmation_response_seconds": [
+      7.611,
+      8.389,
+      6.803
+    ],
+    "destination_changes": 0,
+    "gesture_events": 7,
+    "mean_confirmation_response_seconds": 7.601,
+    "navigation_pauses": 0,
+    "navigation_resumes": 0,
+    "recognised_gesture_events": 7,
+    "rejected_command_events": 0,
+    "route_failures": 0,
+    "route_starts": 3,
+    "safety_stops": 1,
+    "successful_execution": true,
+    "wall_clock_duration_seconds": 210.839,
+    "waypoint_events": 6
+  },
+  "pass_result": true,
+  "reason": "gesture_video_replay_completed",
+  "simulation_duration_seconds": 134.016
+}

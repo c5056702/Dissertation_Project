@@ -1,0 +1,11 @@
+WARNING: It is not recommended to run Webots as root.
+WARNING: System below the minimal requirements.
+
+Webots has detected that your GPU vendor is 'Mesa'. A recent NVIDIA or AMD graphics adapter is highly recommended to run Webots smoothly. Webots has detected that your computer uses a slow 3D software rendering system. It is strongly recommended to install the latest graphics drivers provided by your GPU manufacturer. Webots will run much faster after the installation of the correct driver.
+
+ - Shadows have been deactivated.
+ - Anti-aliasing has been deactivated.
+ - Main 3D view global ambient occlusion has been de-activated.
+ - Texture quality has been reduced.
+
+You can try to re-activate some OpenGL features from the Webots preferences.

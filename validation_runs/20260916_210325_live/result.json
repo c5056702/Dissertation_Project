@@ -1,0 +1,1681 @@
+{
+  "events": [
+    {
+      "event": "live_input_supervisor_started",
+      "gesture_source": "local_mediapipe_camera",
+      "session_id": "8d32da1a2122",
+      "status": {
+        "camera_error": null,
+        "camera_ready": true,
+        "camera_reconnects": 1,
+        "face_present": false,
+        "gesture_calibrated": false,
+        "ready": true,
+        "voice_error": null,
+        "voice_ready": true,
+        "voice_reconnects": 1
+      },
+      "time": 1789589017.749,
+      "voice_source": "local_vosk_microphone"
+    },
+    {
+      "display": "automatic_local_window",
+      "event": "dashboard_started",
+      "recording": false,
+      "session_id": "8d32da1a2122",
+      "time": 1789589017.762
+    },
+    {
+      "event": "controller_started",
+      "scenario": "live",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "time": 1789589017.764
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": null,
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "no_pose",
+      "time": 1789589017.982
+    },
+    {
+      "camera_error": null,
+      "camera_ready": true,
+      "camera_reconnects": 1,
+      "event": "live_input_status",
+      "face_present": true,
+      "gesture_calibrated": false,
+      "ready": true,
+      "session_id": "8d32da1a2122",
+      "time": 1789589017.982,
+      "voice_error": null,
+      "voice_ready": true,
+      "voice_reconnects": 1
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": null,
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "periodic",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "no_pose",
+      "time": 1789589023.04
+    },
+    {
+      "camera_error": null,
+      "camera_ready": true,
+      "camera_reconnects": 1,
+      "event": "live_input_status",
+      "face_present": true,
+      "gesture_calibrated": true,
+      "ready": true,
+      "session_id": "8d32da1a2122",
+      "time": 1789589023.681,
+      "voice_error": null,
+      "voice_ready": true,
+      "voice_reconnects": 1
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589023.771
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "yaw"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589025.046
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589025.569
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589026.368
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589026.895
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "yaw"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "tilt_blocked_axes": [
+        "yaw"
+      ],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589031.307
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch",
+        "yaw"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "tilt_blocked_axes": [
+        "yaw"
+      ],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589032.097
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch",
+        "yaw"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589032.625
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "yaw"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589033.297
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589034.496
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589037.295
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589037.822
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589039.422
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "IDLE",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589039.951
+    },
+    {
+      "accepted": true,
+      "command": "start",
+      "confidence": 1.0,
+      "decision_id": 1,
+      "event": "voice_final_decision",
+      "reason": "accepted",
+      "session_id": "8d32da1a2122",
+      "source": "local_vosk_microphone",
+      "state": "IDLE",
+      "threshold": 0.5,
+      "time": 1789589040.896,
+      "transcript": "start",
+      "voice_reconnects": 1,
+      "word_confidences": [
+        {
+          "confidence": 1.0,
+          "word": "start"
+        }
+      ]
+    },
+    {
+      "accepted": true,
+      "command": "start",
+      "event": "command_recognised",
+      "input_source": "MICROPHONE",
+      "recognised_as": null,
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "status": "activated",
+      "time": 1789589040.897
+    },
+    {
+      "event": "system_activated",
+      "input_source": "MICROPHONE",
+      "movement_started": false,
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "time": 1789589040.898,
+      "waiting_for_destination": true
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589041.023
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589042.752
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589043.296
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589043.984
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589044.496
+    },
+    {
+      "accepted": true,
+      "command": "go to A",
+      "confidence": 1.0,
+      "decision_id": 2,
+      "event": "voice_final_decision",
+      "reason": "accepted",
+      "session_id": "8d32da1a2122",
+      "source": "local_vosk_microphone",
+      "state": "READY",
+      "threshold": 0.65,
+      "time": 1789589044.784,
+      "transcript": "go to alpha",
+      "voice_reconnects": 1,
+      "word_confidences": [
+        {
+          "confidence": 1.0,
+          "word": "go"
+        },
+        {
+          "confidence": 1.0,
+          "word": "to"
+        },
+        {
+          "confidence": 1.0,
+          "word": "alpha"
+        }
+      ]
+    },
+    {
+      "accepted": true,
+      "command": "go to A",
+      "event": "command_recognised",
+      "input_source": "MICROPHONE",
+      "recognised_as": null,
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "status": "pending_confirmation",
+      "time": 1789589044.785
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589044.992
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589045.584
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589046.097
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589046.686
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589047.391
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589048.191
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589048.783
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "roll",
+        "pitch",
+        "yaw"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [
+        "yaw"
+      ],
+      "tilt_direction": "TILT_LEFT",
+      "tilt_gate": "yaw_outside_range",
+      "time": 1789589049.39
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "roll",
+        "yaw"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [
+        "yaw"
+      ],
+      "tilt_direction": "TILT_LEFT",
+      "tilt_gate": "yaw_outside_range",
+      "time": 1789589049.886
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589050.383
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589051.79
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589052.287
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589052.782
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589053.582
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589054.079
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589054.687
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": "TILT_RIGHT",
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "roll",
+        "yaw"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": "TILT_RIGHT",
+      "tilt_gate": "holding_tilt",
+      "time": 1789589055.182
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "roll",
+        "yaw"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [
+        "yaw"
+      ],
+      "tilt_direction": "TILT_RIGHT",
+      "tilt_gate": "yaw_outside_range",
+      "time": 1789589055.679
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": "TILT_RIGHT",
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "roll",
+        "yaw"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": "TILT_RIGHT",
+      "tilt_gate": "holding_tilt",
+      "time": 1789589056.176
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch",
+        "yaw"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589056.688
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589057.581
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "yaw"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589058.175
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch",
+        "yaw"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589058.878
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "yaw"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589059.486
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch",
+        "yaw"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589061.07
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "yaw"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589061.581
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "roll",
+        "yaw"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589062.478
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "roll",
+        "pitch",
+        "yaw"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [
+        "pitch",
+        "yaw"
+      ],
+      "tilt_direction": "TILT_LEFT",
+      "tilt_gate": "pitch_outside_range",
+      "time": 1789589062.973
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "roll",
+        "pitch",
+        "yaw"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [
+        "yaw"
+      ],
+      "tilt_direction": "TILT_LEFT",
+      "tilt_gate": "yaw_outside_range",
+      "time": 1789589063.471
+    },
+    {
+      "camera_error": null,
+      "camera_ready": true,
+      "camera_reconnects": 1,
+      "event": "live_input_status",
+      "face_present": false,
+      "gesture_calibrated": true,
+      "ready": true,
+      "session_id": "8d32da1a2122",
+      "time": 1789589063.773,
+      "voice_error": null,
+      "voice_ready": true,
+      "voice_reconnects": 1
+    },
+    {
+      "camera_error": null,
+      "camera_ready": true,
+      "camera_reconnects": 1,
+      "event": "live_input_status",
+      "face_present": true,
+      "gesture_calibrated": true,
+      "ready": true,
+      "session_id": "8d32da1a2122",
+      "time": 1789589063.877,
+      "voice_error": null,
+      "voice_ready": true,
+      "voice_reconnects": 1
+    },
+    {
+      "active_destination": null,
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "yaw"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589063.982
+    },
+    {
+      "active_destination": null,
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589066.079
+    },
+    {
+      "active_destination": null,
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "yaw"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589066.671
+    },
+    {
+      "active_destination": null,
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589067.781
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589068.481
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589070.67
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": "NOD",
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589072.174
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589072.766
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": "NOD",
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589073.57
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589074.178
+    },
+    {
+      "active_destination": null,
+      "armed": true,
+      "candidate": "NOD",
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": "go to A",
+      "pending_confirmation": true,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "READY",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_tilt",
+      "time": 1789589074.976
+    },
+    {
+      "event": "input_mode_changed",
+      "mode": "CAMERA",
+      "previous": "MICROPHONE",
+      "reason": "camera gesture: NOD",
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "time": 1789589075.265
+    },
+    {
+      "event": "gesture_recognised",
+      "gesture": "NOD",
+      "input_source": "CAMERA",
+      "outcome": "route_started",
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "time": 1789589075.265
+    },
+    {
+      "alternative": false,
+      "command": "go to A",
+      "confirmation_source": "CAMERA",
+      "destination": "A",
+      "event": "command_confirmed",
+      "origin": "S",
+      "position": [
+        -2.5500000031045515,
+        2.0594999999999994
+      ],
+      "route": "GRAPH_S_A_SHORTEST",
+      "route_length": 4.811,
+      "route_segments": [
+        "S_A_SHORT"
+      ],
+      "session_id": "8d32da1a2122",
+      "simulation_seconds": 15.808,
+      "state": "NAVIGATING",
+      "time": 1789589075.266
+    },
+    {
+      "event": "route_started",
+      "route": "GRAPH_S_A_SHORTEST",
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "time": 1789589075.266,
+      "trigger_source": "camera_nod_confirmation"
+    },
+    {
+      "details": {
+        "index": 1,
+        "position": [
+          -2.5500000031045515,
+          2.0594999999999994
+        ]
+      },
+      "event": "waypoint_reached",
+      "position": [
+        -2.5500000031045515,
+        2.0594999999999994
+      ],
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "time": 1789589075.268
+    },
+    {
+      "active_destination": "A",
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589075.472
+    },
+    {
+      "details": {
+        "compass": [
+          -0.9956178651079097,
+          0.09351506123597514,
+          0.0
+        ],
+        "desired_heading": -0.029200897719302076,
+        "distance": 1.3514645439314394,
+        "heading": -1.4771444271334873,
+        "heading_error": 1.447943529414185,
+        "position": [
+          -2.5508883930817414,
+          2.059458369718525
+        ],
+        "target": [
+          -1.2,
+          2.02
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_A_SHORTEST",
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "time": 1789589075.872
+    },
+    {
+      "active_destination": "A",
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "periodic",
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589080.559
+    },
+    {
+      "active_destination": "A",
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "tilt_blocked_axes": [
+        "pitch"
+      ],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589083.263
+    },
+    {
+      "active_destination": "A",
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589083.759
+    },
+    {
+      "active_destination": "A",
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "tilt_blocked_axes": [
+        "pitch"
+      ],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589084.366
+    },
+    {
+      "active_destination": "A",
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589084.958
+    },
+    {
+      "active_destination": "A",
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "roll",
+        "pitch"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589085.454
+    },
+    {
+      "details": {
+        "compass": [
+          0.005471246572609737,
+          0.9999850326184596,
+          0.0
+        ],
+        "desired_heading": 0.009379269026924977,
+        "distance": 1.0633646460462836,
+        "heading": 0.005471273869518178,
+        "heading_error": 0.003907995157406585,
+        "position": [
+          -2.2633178739296893,
+          2.0100265631408614
+        ],
+        "target": [
+          -1.2,
+          2.02
+        ]
+      },
+      "event": "navigation_progress",
+      "route": "GRAPH_S_A_SHORTEST",
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "time": 1789589085.856
+    },
+    {
+      "active_destination": "A",
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589085.966
+    },
+    {
+      "active_destination": "A",
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch",
+        "yaw"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "tilt_blocked_axes": [
+        "pitch"
+      ],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589086.463
+    },
+    {
+      "active_destination": "A",
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch",
+        "yaw"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589087.055
+    },
+    {
+      "active_destination": "A",
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch",
+        "yaw"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "NAVIGATING",
+      "tilt_blocked_axes": [
+        "pitch"
+      ],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589087.566
+    },
+    {
+      "event": "input_mode_changed",
+      "mode": "MICROPHONE",
+      "previous": "CAMERA",
+      "reason": "dashboard stop requires START",
+      "session_id": "8d32da1a2122",
+      "state": "STOPPED",
+      "time": 1789589087.691
+    },
+    {
+      "event": "safety_stop",
+      "position": [
+        -2.190484719052555,
+        2.010521012618263
+      ],
+      "session_id": "8d32da1a2122",
+      "source": "dashboard_stop",
+      "state": "STOPPED",
+      "time": 1789589087.692
+    },
+    {
+      "active_destination": null,
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch",
+        "yaw"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "STOPPED",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589088.063
+    },
+    {
+      "active_destination": null,
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "changed",
+      "session_id": "8d32da1a2122",
+      "state": "STOPPED",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589088.654
+    },
+    {
+      "active_destination": null,
+      "armed": false,
+      "candidate": null,
+      "event": "gesture_detection_status",
+      "neutral_axes_outside": [
+        "pitch"
+      ],
+      "pending_command": null,
+      "pending_confirmation": false,
+      "sample_reason": "periodic",
+      "session_id": "8d32da1a2122",
+      "state": "STOPPED",
+      "tilt_blocked_axes": [],
+      "tilt_direction": null,
+      "tilt_gate": "waiting_for_neutral",
+      "time": 1789589093.664
+    }
+  ],
+  "final_state": "STOPPED",
+  "metrics": {
+    "accepted_command_events": 2,
+    "command_acceptance_rate": 1.0,
+    "command_events": 2,
+    "confirmation_response_seconds": [
+      30.481
+    ],
+    "destination_changes": 0,
+    "gesture_events": 1,
+    "mean_confirmation_response_seconds": 30.481,
+    "navigation_pauses": 0,
+    "navigation_resumes": 0,
+    "recognised_gesture_events": 1,
+    "rejected_command_events": 0,
+    "route_failures": 0,
+    "route_starts": 1,
+    "safety_stops": 1,
+    "successful_execution": false,
+    "wall_clock_duration_seconds": 77.037,
+    "waypoint_events": 1
+  },
+  "pass_result": false,
+  "reason": "webots_ended"
+}

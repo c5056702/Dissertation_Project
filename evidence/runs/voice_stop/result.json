@@ -1,0 +1,112 @@
+{
+  "actual_path_length": 0.0,
+  "events": [
+    {
+      "event": "controller_started",
+      "scenario": "/project/validation_runs/20260821_082510_748342_voice_stop_01/scenario.json",
+      "state": "IDLE",
+      "time": 1787300730.231
+    },
+    {
+      "event": "viewpoint_configured",
+      "orientation": [
+        0.0,
+        1.0,
+        0.0,
+        1.570796
+      ],
+      "position": [
+        0.0,
+        0.0,
+        7.2
+      ],
+      "time": 1787300730.233
+    },
+    {
+      "accepted": true,
+      "command": "start A",
+      "event": "command_recognised",
+      "state": "READY",
+      "status": "pending_confirmation",
+      "time": 1787300730.944
+    },
+    {
+      "event": "gesture_recognised",
+      "gesture": "TILT_LEFT",
+      "outcome": "route_short_selected",
+      "state": "READY",
+      "time": 1787300730.946
+    },
+    {
+      "event": "gesture_recognised",
+      "gesture": "NOD",
+      "outcome": "route_started",
+      "state": "TO_PICKUP",
+      "time": 1787300730.952
+    },
+    {
+      "alternative": false,
+      "command": "start A",
+      "destination": "A",
+      "event": "command_confirmed",
+      "origin": "S",
+      "route": "S_A_SHORT",
+      "route_length": 4.802,
+      "route_segments": [
+        "S_A_SHORT"
+      ],
+      "state": "TO_PICKUP",
+      "time": 1787300730.964
+    },
+    {
+      "event": "route_started",
+      "route": "S_A_SHORT",
+      "state": "TO_PICKUP",
+      "time": 1787300730.969
+    },
+    {
+      "event": "safety_stop",
+      "position": [
+        -2.55005867592108,
+        2.059090215821855
+      ],
+      "source": "voice",
+      "state": "STOPPED",
+      "time": 1787300731.18
+    },
+    {
+      "event": "safety_stop_verified",
+      "source": "voice",
+      "state": "STOPPED",
+      "time": 1787300731.285
+    }
+  ],
+  "final_position": [
+    -2.55005867592108,
+    2.059090215821855
+  ],
+  "final_state": "STOPPED",
+  "metrics": {
+    "accepted_command_events": 1,
+    "command_acceptance_rate": 1.0,
+    "command_events": 1,
+    "confirmation_response_seconds": [
+      0.02
+    ],
+    "destination_changes": 0,
+    "gesture_events": 2,
+    "mean_confirmation_response_seconds": 0.02,
+    "navigation_pauses": 0,
+    "navigation_resumes": 0,
+    "recognised_gesture_events": 2,
+    "rejected_command_events": 0,
+    "route_failures": 0,
+    "route_starts": 1,
+    "safety_stops": 1,
+    "successful_execution": true,
+    "wall_clock_duration_seconds": 1.055,
+    "waypoint_events": 0
+  },
+  "pass_result": true,
+  "reason": "expected_voice_stop"
+}

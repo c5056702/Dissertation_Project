@@ -1,0 +1,383 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "../protos/vendor/epuck/E-puck.proto"
+EXTERNPROTO "../protos/vendor/appearances/BrushedSteel.proto"
+EXTERNPROTO "../protos/vendor/appearances/PorcelainChevronTiles.proto"
+EXTERNPROTO "../protos/vendor/appearances/RoughConcrete.proto"
+EXTERNPROTO "../protos/vendor/appearances/VarnishedPine.proto"
+
+WorldInfo {
+  basicTimeStep 32
+  title "Multimodal e-puck waypoint navigation"
+  info [
+    "S: start; A and B: pickup; C: drop-off."
+    "S-A has short and long alternatives; A-C, A-B, and B-C are fixed corridors."
+  ]
+}
+DEF MAIN_VIEW Viewpoint {
+  orientation 0 1 0 1.570796
+  position 0 0 7.2
+  fieldOfView 1.35
+  near 0.1
+  far 20
+}
+Background {
+  skyColor [ 0.08 0.12 0.20 ]
+}
+DirectionalLight {
+  direction -0.4 -1 -0.3
+  intensity 1.4
+}
+PointLight {
+  location 0 0 4.5
+  color 1 0.94 0.84
+  intensity 0.65
+  attenuation 0 0 0.08
+  castShadows TRUE
+}
+
+DEF FLOOR Solid {
+  translation 0 0 -0.06
+  name "navigation floor"
+  children [
+    Shape {
+      appearance PorcelainChevronTiles {
+        colorOverride 0.96 0.91 0.82
+        textureTransform TextureTransform { scale 3 2.5 }
+      }
+      geometry Box { size 6 5 0.12 }
+    }
+  ]
+  boundingObject Box { size 6 5 0.12 }
+}
+
+# Navigation corridors are intentionally invisible. The controller follows
+# GPS/compass waypoints and the proximity-sensor safety supervisor; no floor
+# line, coloured track, or collision geometry influences movement.
+
+DEF NORTH_WALL Solid {
+  translation 0 -2.5 0.2
+  name "north boundary wall"
+  children [ Shape { appearance BrushedSteel { colorOverride 0.30 0.33 0.38 textureTransform TextureTransform { scale 5 1 } } geometry Box { size 6 0.12 0.4 } } ]
+  boundingObject Box { size 6 0.12 0.4 }
+}
+DEF SOUTH_WALL Solid {
+  translation 0 2.5 0.2
+  name "south boundary wall"
+  children [ Shape { appearance BrushedSteel { colorOverride 0.30 0.33 0.38 textureTransform TextureTransform { scale 5 1 } } geometry Box { size 6 0.12 0.4 } } ]
+  boundingObject Box { size 6 0.12 0.4 }
+}
+DEF WEST_WALL Solid {
+  translation -3 0 0.2
+  name "west boundary wall"
+  children [ Shape { appearance BrushedSteel { colorOverride 0.30 0.33 0.38 textureTransform TextureTransform { scale 4 1 } } geometry Box { size 0.12 5 0.4 } } ]
+  boundingObject Box { size 0.12 5 0.4 }
+}
+DEF EAST_WALL Solid {
+  translation 3 0 0.2
+  name "east boundary wall"
+  children [ Shape { appearance BrushedSteel { colorOverride 0.30 0.33 0.38 textureTransform TextureTransform { scale 4 1 } } geometry Box { size 0.12 5 0.4 } } ]
+  boundingObject Box { size 0.12 5 0.4 }
+}
+
+# Interior walls leave the coloured corridors in the supplied map functional.
+DEF LEFT_INTERIOR_WALL Solid {
+  translation -1.65 0.25 0.2
+  name "left interior wall"
+  children [ Shape { appearance RoughConcrete { colorOverride 0.58 0.60 0.63 textureTransform TextureTransform { scale 1 2 } } geometry Box { size 0.18 1.8 0.4 } } ]
+  boundingObject Box { size 0.18 1.8 0.4 }
+}
+DEF CENTRE_INTERIOR_WALL Solid {
+  translation 0.25 0.25 0.2
+  name "centre interior wall"
+  children [ Shape { appearance RoughConcrete { colorOverride 0.55 0.57 0.61 textureTransform TextureTransform { scale 1 2 } } geometry Box { size 0.18 1.35 0.4 } } ]
+  boundingObject Box { size 0.18 1.35 0.4 }
+}
+DEF RIGHT_INTERIOR_WALL Solid {
+  translation 1.25 -0.15 0.2
+  name "right interior wall"
+  children [ Shape { appearance RoughConcrete { colorOverride 0.58 0.60 0.63 textureTransform TextureTransform { scale 1 2 } } geometry Box { size 0.18 1.7 0.4 } } ]
+  boundingObject Box { size 0.18 1.7 0.4 }
+}
+DEF TOP_CENTRE_WALL Solid {
+  translation 0.2 -1.05 0.2
+  name "top centre wall"
+  children [ Shape { appearance RoughConcrete { colorOverride 0.55 0.57 0.61 textureTransform TextureTransform { scale 2 1 } } geometry Box { size 1.15 0.18 0.4 } } ]
+  boundingObject Box { size 1.15 0.18 0.4 }
+}
+
+# Validation-only blocker; the controller moves it into a corridor only when
+# an explicit fault-injection environment variable is present.
+DEF TEST_BLOCKER Solid {
+  translation 10 10 0.20
+  name "validation blocker"
+  children [ Shape { appearance PBRAppearance { baseColor 0.75 0.05 0.05 roughness 0.6 } geometry Box { size 0.45 0.30 0.40 } } ]
+  boundingObject Box { size 0.45 0.30 0.40 }
+}
+
+DEF WAYPOINT_S Solid {
+  translation -2.55 2.05 0.025
+  name "S - Start"
+  children [ Shape { appearance DEF WAYPOINT_S_STYLE PBRAppearance { baseColor 0.10 0.70 0.25 emissiveColor 0.03 0.15 0.04 } geometry Box { size 0.32 0.32 0.05 } } ]
+}
+DEF WAYPOINT_A Solid {
+  translation 2.25 1.95 0.025
+  name "A - Pickup"
+  children [ Shape { appearance DEF WAYPOINT_A_STYLE PBRAppearance { baseColor 0.85 0.08 0.08 emissiveColor 0.16 0.01 0.01 } geometry Box { size 0.32 0.32 0.05 } } ]
+}
+DEF WAYPOINT_B Solid {
+  translation -2.20 -2.05 0.025
+  name "B - Pickup"
+  children [ Shape { appearance DEF WAYPOINT_B_STYLE PBRAppearance { baseColor 0.08 0.35 0.90 emissiveColor 0.01 0.04 0.16 } geometry Box { size 0.32 0.32 0.05 } } ]
+}
+DEF WAYPOINT_C Solid {
+  translation 2.25 -2.05 0.025
+  name "C - Drop-off"
+  children [ Shape { appearance DEF WAYPOINT_C_STYLE PBRAppearance { baseColor 0.55 0.14 0.78 emissiveColor 0.10 0.02 0.15 } geometry Box { size 0.32 0.32 0.05 } } ]
+}
+
+# Webots R2025a does not support Text as Shape geometry. These original box
+# strokes provide visible S/A/B/C floor labels without invalid nodes or copied
+# artwork. The full waypoint descriptions remain available as Solid names.
+Transform {
+  translation -2.55 2.05 0.056
+  children [
+    Transform { translation 0 0.07 0 children [ DEF LABEL_HORIZONTAL Shape { appearance DEF LABEL_WHITE PBRAppearance { baseColor 1 1 1 emissiveColor 0.35 0.35 0.35 roughness 0.7 } geometry Box { size 0.16 0.03 0.008 } } ] }
+    Transform { children [ USE LABEL_HORIZONTAL ] }
+    Transform { translation 0 -0.07 0 children [ USE LABEL_HORIZONTAL ] }
+    Transform { translation -0.065 0.035 0 children [ DEF LABEL_HALF_VERTICAL Shape { appearance USE LABEL_WHITE geometry Box { size 0.03 0.09 0.008 } } ] }
+    Transform { translation 0.065 -0.035 0 children [ USE LABEL_HALF_VERTICAL ] }
+  ]
+}
+Transform {
+  translation 2.25 1.95 0.056
+  children [
+    Transform { translation -0.065 0 0 children [ DEF LABEL_VERTICAL Shape { appearance USE LABEL_WHITE geometry Box { size 0.03 0.18 0.008 } } ] }
+    Transform { translation 0.065 0 0 children [ USE LABEL_VERTICAL ] }
+    Transform { translation 0 0.07 0 children [ USE LABEL_HORIZONTAL ] }
+    Transform { children [ USE LABEL_HORIZONTAL ] }
+  ]
+}
+Transform {
+  translation -2.20 -2.05 0.056
+  children [
+    Transform { translation -0.065 0 0 children [ USE LABEL_VERTICAL ] }
+    Transform { translation 0.065 0 0 children [ USE LABEL_VERTICAL ] }
+    Transform { translation 0 0.07 0 children [ USE LABEL_HORIZONTAL ] }
+    Transform { children [ USE LABEL_HORIZONTAL ] }
+    Transform { translation 0 -0.07 0 children [ USE LABEL_HORIZONTAL ] }
+  ]
+}
+Transform {
+  translation 2.25 -2.05 0.056
+  children [
+    Transform { translation -0.065 0 0 children [ USE LABEL_VERTICAL ] }
+    Transform { translation 0 0.07 0 children [ USE LABEL_HORIZONTAL ] }
+    Transform { translation 0 -0.07 0 children [ USE LABEL_HORIZONTAL ] }
+  ]
+}
+
+# Decorative furniture is deliberately non-blocking. It adds the two benches
+# and two planted pots suggested by the reference map without altering sensing
+# or the validated route topology.
+Transform {
+  translation 0.65 0.62 0
+  children [
+    Transform {
+      translation -0.10 0 0.24
+      children [ Shape { appearance DEF BENCH_WOOD VarnishedPine { colorOverride 0.68 0.39 0.18 textureTransform TextureTransform { scale 1 4 } } geometry Box { size 0.10 0.76 0.07 } } ]
+    }
+    Transform {
+      translation 0.03 0 0.24
+      children [ Shape { appearance USE BENCH_WOOD geometry Box { size 0.10 0.76 0.07 } } ]
+    }
+    Transform {
+      translation 0.16 0 0.24
+      children [ Shape { appearance USE BENCH_WOOD geometry Box { size 0.10 0.76 0.07 } } ]
+    }
+    Transform {
+      translation -0.10 -0.27 0.12
+      children [ Shape { appearance DEF BENCH_METAL BrushedSteel { colorOverride 0.20 0.22 0.24 } geometry Box { size 0.07 0.07 0.22 } } ]
+    }
+    Transform {
+      translation -0.10 0.27 0.12
+      children [ Shape { appearance USE BENCH_METAL geometry Box { size 0.07 0.07 0.22 } } ]
+    }
+    Transform {
+      translation 0.16 -0.27 0.12
+      children [ Shape { appearance USE BENCH_METAL geometry Box { size 0.07 0.07 0.22 } } ]
+    }
+    Transform {
+      translation 0.16 0.27 0.12
+      children [ Shape { appearance USE BENCH_METAL geometry Box { size 0.07 0.07 0.22 } } ]
+    }
+  ]
+}
+Transform {
+  translation -0.45 -1.55 0
+  children [
+    Transform {
+      translation -0.10 0 0.24
+      children [ Shape { appearance USE BENCH_WOOD geometry Box { size 0.10 0.58 0.07 } } ]
+    }
+    Transform {
+      translation 0.03 0 0.24
+      children [ Shape { appearance USE BENCH_WOOD geometry Box { size 0.10 0.58 0.07 } } ]
+    }
+    Transform {
+      translation 0.16 0 0.24
+      children [ Shape { appearance USE BENCH_WOOD geometry Box { size 0.10 0.58 0.07 } } ]
+    }
+    Transform {
+      translation -0.10 -0.27 0.12
+      children [ Shape { appearance USE BENCH_METAL geometry Box { size 0.07 0.07 0.22 } } ]
+    }
+    Transform {
+      translation -0.10 0.27 0.12
+      children [ Shape { appearance USE BENCH_METAL geometry Box { size 0.07 0.07 0.22 } } ]
+    }
+    Transform {
+      translation 0.16 -0.27 0.12
+      children [ Shape { appearance USE BENCH_METAL geometry Box { size 0.07 0.07 0.22 } } ]
+    }
+    Transform {
+      translation 0.16 0.27 0.12
+      children [ Shape { appearance USE BENCH_METAL geometry Box { size 0.07 0.07 0.22 } } ]
+    }
+  ]
+}
+Transform {
+  translation 1.42 -1.30 0
+  children [
+    Transform {
+      translation 0 0 0.08
+      children [ Shape { appearance DEF POT_MATERIAL RoughConcrete { colorOverride 0.55 0.28 0.12 } geometry Cylinder { radius 0.14 height 0.16 } } ]
+    }
+    Transform {
+      translation 0 0 0.22
+      children [ Shape { appearance DEF LEAF_MATERIAL PBRAppearance { baseColor 0.08 0.42 0.15 roughness 0.85 } geometry Sphere { radius 0.15 subdivision 2 } } ]
+    }
+    Transform {
+      translation 0.09 0.03 0.29
+      children [ Shape { appearance USE LEAF_MATERIAL geometry Sphere { radius 0.10 subdivision 2 } } ]
+    }
+    Transform {
+      translation -0.07 -0.06 0.30
+      children [ Shape { appearance USE LEAF_MATERIAL geometry Sphere { radius 0.09 subdivision 2 } } ]
+    }
+  ]
+}
+Transform {
+  translation -1.32 0.05 0
+  children [
+    Transform {
+      translation 0 0 0.08
+      children [ Shape { appearance USE POT_MATERIAL geometry Cylinder { radius 0.14 height 0.16 } } ]
+    }
+    Transform {
+      translation 0 0 0.22
+      children [ Shape { appearance USE LEAF_MATERIAL geometry Sphere { radius 0.15 subdivision 2 } } ]
+    }
+    Transform {
+      translation 0.08 -0.04 0.30
+      children [ Shape { appearance USE LEAF_MATERIAL geometry Sphere { radius 0.10 subdivision 2 } } ]
+    }
+    Transform {
+      translation -0.06 0.07 0.29
+      children [ Shape { appearance USE LEAF_MATERIAL geometry Sphere { radius 0.09 subdivision 2 } } ]
+    }
+  ]
+}
+
+# A non-colliding locator and enlarged visual body make the standard 74 mm
+# e-puck readable in the 6 m x 5 m overhead view. The attached 0.28 m visual
+# body has no boundingObject, so wheel physics, proximity sensors, GPS/compass,
+# and the tested navigation footprint remain those of the official e-puck.
+DEF ROBOT_LOCATOR Transform {
+  translation -2.55 2.05 0.13
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0.82 0.05
+        emissiveColor 0.25 0.12 0
+        transparency 0.45
+        roughness 0.7
+      }
+      geometry Cylinder { height 0.012 radius 0.22 subdivision 32 }
+    }
+  ]
+}
+
+DEF EPUCK E-puck {
+  translation -2.55 2.05 0.06
+  rotation 0 0 1 -1.570796
+  name "e-puck-waypoint-robot"
+  controller "epuck_waypoint_controller"
+  supervisor TRUE
+  window "<none>"
+  kinematic TRUE
+  turretSlot [
+    GPS { name "gps" }
+    Compass { name "compass" }
+    DEF EPUCK_ENLARGED_VISUAL Transform {
+      # The official turret slot is offset -0.0095 m on local x. This restores
+      # the visual body's centre to the robot origin and raises it above the
+      # standard shell.
+      translation 0.0095 0 0.018
+      children [
+        # Dark chassis and side wheels.
+        Shape {
+          appearance DEF EPUCK_VISUAL_CHASSIS PBRAppearance {
+            baseColor 0.035 0.045 0.055
+            roughness 0.42
+            metalness 0.25
+          }
+          geometry Cylinder { height 0.035 radius 0.14 subdivision 48 }
+        }
+        Transform {
+          translation 0 0.128 -0.002
+          children [ Shape { appearance USE EPUCK_VISUAL_CHASSIS geometry Box { size 0.17 0.035 0.045 } } ]
+        }
+        Transform {
+          translation 0 -0.128 -0.002
+          children [ Shape { appearance USE EPUCK_VISUAL_CHASSIS geometry Box { size 0.17 0.035 0.045 } } ]
+        }
+        # Green board/top plate identifies this as the e-puck rather than a
+        # second locator disc.
+        Transform {
+          translation 0 0 0.021
+          children [
+            Shape {
+              appearance PBRAppearance {
+                baseColor 0.08 0.58 0.34
+                emissiveColor 0.015 0.10 0.045
+                roughness 0.38
+                metalness 0.05
+              }
+              geometry Cylinder { height 0.012 radius 0.112 subdivision 48 }
+            }
+          ]
+        }
+        # High-contrast heading indicator points along the e-puck's local +x.
+        Transform {
+          translation 0.052 0 0.030
+          children [ Shape { appearance DEF EPUCK_HEADING_STYLE PBRAppearance { baseColor 1 0.78 0.05 emissiveColor 0.22 0.10 0 roughness 0.5 } geometry Box { size 0.105 0.026 0.008 } } ]
+        }
+        Transform {
+          translation 0.108 0.027 0.030
+          rotation 0 0 1 -0.65
+          children [ Shape { appearance USE EPUCK_HEADING_STYLE geometry Box { size 0.065 0.026 0.008 } } ]
+        }
+        Transform {
+          translation 0.108 -0.027 0.030
+          rotation 0 0 1 0.65
+          children [ Shape { appearance USE EPUCK_HEADING_STYLE geometry Box { size 0.065 0.026 0.008 } } ]
+        }
+        Transform {
+          translation -0.045 0 0.030
+          children [ Shape { appearance PBRAppearance { baseColor 0.82 0.88 0.92 emissiveColor 0.05 0.05 0.05 roughness 0.3 metalness 0.25 } geometry Cylinder { height 0.012 radius 0.027 subdivision 24 } } ]
+        }
+      ]
+    }
+  ]
+}

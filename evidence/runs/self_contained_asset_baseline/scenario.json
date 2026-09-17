@@ -1,0 +1,24 @@
+{
+  "name": "baseline_short",
+  "expected_terminal": "return_to_base",
+  "expected_final_position": "S",
+  "actions": [
+    {
+      "command": "start A",
+      "route_gesture": "TILT_LEFT",
+      "gesture": "NOD"
+    },
+    {
+      "command": "pickup",
+      "gesture": "NOD"
+    },
+    {
+      "command": "drop off",
+      "gesture": "NOD"
+    },
+    {
+      "command": "return",
+      "gesture": "NOD"
+    }
+  ]
+}

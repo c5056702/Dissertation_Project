@@ -1,0 +1,9 @@
+{"event": "controller_started", "scenario": "/project/validation_runs/20260821_082545_425154_head_shake_01/scenario.json", "state": "IDLE", "time": 1787300764.925}
+{"event": "viewpoint_configured", "orientation": [0.0, 1.0, 0.0, 1.570796], "position": [0.0, 0.0, 7.2], "time": 1787300764.928}
+{"accepted": true, "command": "start A", "event": "command_recognised", "state": "READY", "status": "pending_confirmation", "time": 1787300765.543}
+{"event": "gesture_recognised", "gesture": "TILT_RIGHT", "outcome": "route_long_selected", "state": "READY", "time": 1787300765.546}
+{"event": "gesture_recognised", "gesture": "NOD", "outcome": "route_started", "state": "TO_PICKUP", "time": 1787300765.552}
+{"alternative": false, "command": "start A", "destination": "A", "event": "command_confirmed", "origin": "S", "route": "S_A_LONG", "route_length": 5.89, "route_segments": ["S_A_LONG"], "state": "TO_PICKUP", "time": 1787300765.559}
+{"event": "route_started", "route": "S_A_LONG", "state": "TO_PICKUP", "time": 1787300765.565}
+{"event": "safety_stop", "position": [-2.5500000029037686, 2.0588855999999995], "source": "head_shake", "state": "STOPPED", "time": 1787300765.777}
+{"event": "safety_stop_verified", "source": "head_shake", "state": "STOPPED", "time": 1787300765.882}

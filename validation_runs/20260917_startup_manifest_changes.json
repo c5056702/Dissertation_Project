@@ -1,0 +1,37 @@
+[
+  {
+    "path": "controllers/epuck_waypoint_controller/input_adapters.py",
+    "before": "665b91c676b2fecf7b409695e2203d0b133b6a8f562364a5bd84fd5d21f854c3",
+    "after": "b5eaecd2f6b5a7035de6912cca51b3df1d1b6a9bdd7b9fdc213ac986ba46c5cd"
+  },
+  {
+    "path": "instructions.md",
+    "before": "0f351d0451307cfc95199019b3f74dd3e23aedd44cb85976a68babc5b2aa10e9",
+    "after": "ee23406ba184311a5c37a32097a622a43fc0661dd241f5c4caaa1d0bf1401230"
+  },
+  {
+    "path": "tests/test_client_portability.py",
+    "before": "63cad44378763d69fc8e85abbecb9cfc81c1cef6c1df05985296b96bccff1d46",
+    "after": "205cfe914f71bd5a5cf44d90885a1aff6c81fa593bfed26b4ed2e3f6743313f5"
+  },
+  {
+    "path": "tests/test_device_recovery.py",
+    "before": "a2829850ee5a960f12d7fb04cc85e85b592246323353829db1c5360cf7274496",
+    "after": "00592524981df2f7ddb7d72984f4773d0a41345a6ed9fee0d14cce9780f0f197"
+  },
+  {
+    "path": "tools/check_live_inputs.py",
+    "before": "994422c823d32c492a16bd037d48630d1a1510551c39f1a8ca532aa542613648",
+    "after": "9fee08efae023ffb52d838a0dac933ca5a170e55ca8ce6bc76c0b320f017e439"
+  },
+  {
+    "path": "tools/run_live.py",
+    "before": "608ba92b35b8aeffd66ab5e702a8aefefe6a5e692ab3c7cb062998e351d5b981",
+    "after": "e530f21b1415bbb39dc329cca398e2f08ac1036d53d22bec29ef20478e2c2783"
+  },
+  {
+    "path": "validation_runs/client_setup_notes.md",
+    "before": "f098cdb3db1c3f0a0ccda188e8eaa2f899e6080f67979fbb27a5ca0fc054aaaa",
+    "after": "bef2c0280bd0aa32961216c373f900b3bd7c737926dc3499a6193fa7320b4d3a"
+  }
+]

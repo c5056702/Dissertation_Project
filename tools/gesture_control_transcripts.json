@@ -1,0 +1,12 @@
+{
+  "description": "Timed text-only commands paired with the classified gesture-video replay; no microphone audio is used.",
+  "transcripts": [
+    {"at_seconds": 2.0, "transcript": "start a", "confidence": 0.97},
+    {"at_seconds": 58.0, "transcript": "go to c", "confidence": 0.96},
+    {"at_seconds": 108.0, "transcript": "go to b", "confidence": 0.96}
+  ],
+  "dashboard_state_events": [
+    {"at_seconds": 50.0, "event": "route_finished", "expected_location": "A"},
+    {"at_seconds": 100.0, "event": "route_finished", "expected_location": "C"}
+  ]
+}

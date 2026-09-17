@@ -1,0 +1,60 @@
+{
+  "reason": "Local travel-time gesture correction; original archive verified before editing",
+  "changes": [
+    {
+      "path": "CODE_EXPLANATION.md",
+      "original_sha256": "08b6b60c01aac896221dabc14afe6bb99c67f0305c7a23ef4de7d48c4c82a33e",
+      "patched_sha256": "83ebd93bb1883c051afeee0340c01fc078f663de5c3d01f6e2ba16b5cbdfa95a"
+    },
+    {
+      "path": "controllers/epuck_waypoint_controller/epuck_waypoint_controller.py",
+      "original_sha256": "077fd28a4893590fe035320b68aec8eb67e0040b4f81f9b5aaf193e2428b8f79",
+      "patched_sha256": "f101f119f2398b988e194762060da85bc9d6598d3c16b0c1fd7ff1d25892c15c"
+    },
+    {
+      "path": "controllers/epuck_waypoint_controller/input_adapters.py",
+      "original_sha256": "a3bd20df14d1b5365c600fbf7ea819be24dd844af470053ca7ce1d987a7c4d05",
+      "patched_sha256": "bc8a78b180cbff97ca9fb6b44f6718a6292529032d4687f590369a67ff9d8b08"
+    },
+    {
+      "path": "controllers/epuck_waypoint_controller/live_dashboard.py",
+      "original_sha256": "28d2826858e574c7409cd90375480f7dbd609e75b5f3987b1a4afe365e877d87",
+      "patched_sha256": "80345cc010e13b1b7315e36b3ebfd8af447f346316600f2811ae46d2c6ba0150"
+    },
+    {
+      "path": "controllers/epuck_waypoint_controller/model.py",
+      "original_sha256": "2c9da43ca69fdfa91832e9e1dc653f5e05933da9b949de210e87c1b9a5728c5b",
+      "patched_sha256": "af5931d0b765e632fb9410616acc68c8be7d946ba090a5a53fcf54759f9bdb19"
+    },
+    {
+      "path": "instructions.md",
+      "original_sha256": "bc266144fd17367031ca51c93d3b1912f6adf32af8bc9b5aa6bc8d6b95365780",
+      "patched_sha256": "2dc5c46aaa8e705dcb703844ec45bf390de84b9c15da3e7bd1a73e7183a42834"
+    },
+    {
+      "path": "README.md",
+      "original_sha256": "fa3768374183e935a2f17f2f33ebfcef242f32037a6f4d31cc0b9938e4cfed6a",
+      "patched_sha256": "888f836335c7b813e0ac9abb7c0923c8a769114721426a790eed5043ee61c1b5"
+    },
+    {
+      "path": "tests/test_expanded_navigation.py",
+      "original_sha256": "4ebee4ed17e0256a61df2d84b5c1a1c759b827d9c38bfd3fee07a2d285d2e206",
+      "patched_sha256": "bf96e7d812425aebd32c4c5f26c466d69e17cc2224ba51d79b9a7f9c5a177d9f"
+    },
+    {
+      "path": "tests/test_input_adapters.py",
+      "original_sha256": "b84916d14d00f30fe72ffb110ddb26e5e61684f9d6472ea12639b8d3f6d4f392",
+      "patched_sha256": "f3f760429fea44821aa52ed968eca7412dcce88fa8126f7befe927f50080cf42"
+    },
+    {
+      "path": "tests/test_live_dashboard.py",
+      "original_sha256": "b5f190cdbfff2159621c06efcb00984d96aa83e519abdc9421ca6beffefd707e",
+      "patched_sha256": "33353b5f7e1d4188d0fd7449dc1475af45959941bfadf6cbbfe317df72d6f222"
+    },
+    {
+      "path": "tests/test_live_override_controller.py",
+      "original_sha256": "33e1a21fc43797bbaf48960d01dddfc32631b883d63354db86c3339e173c484b",
+      "patched_sha256": "3c06cc87bc562228b201bbcd2491b4c7f1dd4eb7cf8371f0b2b6074c05b6dee9"
+    }
+  ]
+}

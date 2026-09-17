@@ -1,0 +1,2 @@
+INFO: epuck_waypoint_controller: Starting controller: python3 -u epuck_waypoint_controller.py
+INFO: 'epuck_waypoint_controller' controller exited successfully.

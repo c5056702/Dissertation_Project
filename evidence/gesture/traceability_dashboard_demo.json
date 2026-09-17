@@ -1,0 +1,137 @@
+{
+  "source_video": "F:\\Head gesture thesis\\tilt_gesture.mp4",
+  "source_video_packaged": false,
+  "subject_consent_confirmed_by_user": true,
+  "output_video": "F:\\Head gesture thesis\\head_gesture_car\\demo\\traceability_dashboard_demo.mp4",
+  "frames_processed": 1757,
+  "fps": 25.08,
+  "calibration_completed": true,
+  "gesture_counts": {
+    "NOD": 4,
+    "SHAKE": 3,
+    "TILT_LEFT": 2,
+    "TILT_RIGHT": 2
+  },
+  "gesture_events": [
+    {
+      "time_seconds": 3.509,
+      "gesture": "TILT_LEFT",
+      "outcome": "route_short_selected"
+    },
+    {
+      "time_seconds": 7.257,
+      "gesture": "TILT_LEFT",
+      "outcome": "route_short_selected"
+    },
+    {
+      "time_seconds": 10.287,
+      "gesture": "TILT_RIGHT",
+      "outcome": "route_long_selected"
+    },
+    {
+      "time_seconds": 13.158,
+      "gesture": "TILT_RIGHT",
+      "outcome": "route_long_selected"
+    },
+    {
+      "time_seconds": 15.431,
+      "gesture": "NOD",
+      "outcome": "route_started"
+    },
+    {
+      "time_seconds": 31.779,
+      "gesture": "SHAKE",
+      "outcome": "emergency_stop"
+    },
+    {
+      "time_seconds": 36.244,
+      "gesture": "NOD",
+      "outcome": "ignored_gesture"
+    },
+    {
+      "time_seconds": 40.75,
+      "gesture": "NOD",
+      "outcome": "route_started"
+    },
+    {
+      "time_seconds": 44.897,
+      "gesture": "SHAKE",
+      "outcome": "emergency_stop"
+    },
+    {
+      "time_seconds": 55.902,
+      "gesture": "SHAKE",
+      "outcome": "emergency_stop"
+    },
+    {
+      "time_seconds": 59.45,
+      "gesture": "NOD",
+      "outcome": "ignored_gesture"
+    }
+  ],
+  "voice_events": [
+    {
+      "time_seconds": 2.034,
+      "transcript": "start a",
+      "command": "start A",
+      "confidence": 0.96,
+      "threshold": 0.65,
+      "accepted": true,
+      "reason": "accepted",
+      "source": "transcript_replay"
+    },
+    {
+      "time_seconds": 24.003,
+      "transcript": "start a",
+      "command": "start A",
+      "confidence": 0.52,
+      "threshold": 0.65,
+      "accepted": false,
+      "reason": "low_confidence",
+      "source": "transcript_replay"
+    },
+    {
+      "time_seconds": 34.012,
+      "transcript": "start",
+      "command": "start",
+      "confidence": 0.98,
+      "threshold": 0.65,
+      "accepted": true,
+      "reason": "accepted",
+      "source": "transcript_replay"
+    },
+    {
+      "time_seconds": 38.039,
+      "transcript": "go to s",
+      "command": "go to S",
+      "confidence": 0.94,
+      "threshold": 0.65,
+      "accepted": true,
+      "reason": "accepted",
+      "source": "transcript_replay"
+    },
+    {
+      "time_seconds": 53.509,
+      "transcript": "start",
+      "command": "start",
+      "confidence": 0.98,
+      "threshold": 0.65,
+      "accepted": true,
+      "reason": "accepted",
+      "source": "transcript_replay"
+    },
+    {
+      "time_seconds": 57.018,
+      "transcript": "go to a",
+      "command": "go to A",
+      "confidence": 0.95,
+      "threshold": 0.65,
+      "accepted": true,
+      "reason": "accepted",
+      "source": "transcript_replay"
+    }
+  ],
+  "microphone_audio_used": false,
+  "runtime_recording_enabled": false,
+  "derived_demo_media_created_explicitly": true
+}

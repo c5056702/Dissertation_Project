@@ -1,0 +1,20 @@
+{
+  "name": "midroute_destination_change",
+  "expected_terminal": "destination_reached",
+  "expected_final_position": "B",
+  "actions": [
+    {
+      "command": "start"
+    },
+    {
+      "command": "go to A",
+      "gesture": "NOD"
+    },
+    {
+      "command": "go to B",
+      "gesture": "NOD",
+      "wait_for_route": "GRAPH_S_A",
+      "minimum_waypoint_index": "1"
+    }
+  ]
+}
